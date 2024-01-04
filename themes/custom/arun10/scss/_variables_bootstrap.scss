@@ -1,0 +1,81 @@
+// Bootstrap variables (overrides).
+$form-text-margin-top: 0;
+$legend-font-size: 1rem;
+$table-cell-padding-x: .75rem;
+
+
+// Colours
+$white:     #ffffff !default;
+$black:     #000000 !default;
+$gray:      #BAB1AD !default;
+$gray-dark: #4a4e56 !default;
+
+// Base relaxing colours
+$blue:      #687dac !default;
+$cyan:      #d2e0ee !default;
+$yellow:    #f2e3d2 !default;
+$green:     #84a29f !default;
+$teal:      #c8d9d3 !default;
+
+// Section colours
+$sec-green:   #93ab67 !default;
+$sec-red:     #ab6784 !default;
+$sec-blue:    #687dac !default;
+$sec-gray:    #52564a !default;
+
+
+// Colour variables
+$primary: $blue;
+$secondary: $green;
+$success: $sec-green;
+$info: $cyan;
+$warning: $sec-red;
+$danger: $sec-red;
+$light: $gray;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "black":      $black,
+);
+
+
+// Fonts
+$font-family-sans-serif: 'Lato', sans-serif;
+$font-family-base: $font-family-sans-serif;
+$font-size-base: 1rem;
+$line-height-base: 1.5;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+$body-color: $gray-dark;
+
+$headings-font-family: 'Raleway', sans-serif;
+$headings-font-weight: 200;
+
+$h1-font-size: $font-size-base * 2.5;
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.75;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base;
+
+
+// Hyperlinks
+$link-color: $secondary;
+$link-decoration: underline;
+$link-hover-color: $primary;
+$link-hover-decoration: underline;
+
+
+// Image border radius
+$border-radius-img: 7px;
+
+
+// Border radius
+$border-radius: 7px;
+$border-radius-img: $border-radius;

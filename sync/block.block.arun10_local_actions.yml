@@ -1,0 +1,20 @@
+uuid: e0fb4415-4a24-4b8c-8c87-fa0dbbb5d0e7
+langcode: en-gb
+status: true
+dependencies:
+  theme:
+    - arun10
+_core:
+  default_config_hash: QY70BpsXZ1p32UjiZlUGCmk6EQcBAzFQhl80Fo7jFRc
+id: arun10_local_actions
+theme: arun10
+region: content
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

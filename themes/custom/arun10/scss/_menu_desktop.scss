@@ -1,0 +1,50 @@
+#block-arun10-mainnavigation {
+
+  // Centre align the main navigation
+  ul.tbm-nav {
+    justify-content: center;
+  }
+
+  // Colour code the main menu items
+  // Individuals = green
+  .menu-individuals,
+  .menu-individuals .tbm-link.level-1:hover,
+  .menu-individuals.open .tbm-link.level-1 {
+    background-color: $sec-green;
+  }
+  .tbm-item.menu-individuals .tbm-submenu {
+    border-top: 6px solid $sec-green
+  }
+
+  // Employers = red
+  .menu-employers,
+  .menu-employers .tbm-link.level-1:hover,
+  .menu-employers.open .tbm-link.level-1 {
+    background-color: $sec-red;
+  }
+  .tbm-item.menu-employers .tbm-submenu {
+    border-top: 6px solid $sec-red
+  }
+
+  // Professionals = blue
+  .menu-professionals,
+  .menu-professionals .tbm-link.level-1:hover,
+  .menu-professionals.open .tbm-link.level-1 {
+    background-color: $sec-blue;
+  }
+  .tbm-item.menu-professionals .tbm-submenu {
+    border-top: 6px solid $sec-blue
+  }
+
+  // About = gray
+  .menu-about,
+  .menu-about .tbm-link.level-1:hover,
+  .menu-about.open .tbm-link.level-1 {
+    background-color: $sec-gray;
+  }
+  .tbm-item.menu-about .tbm-submenu {
+    border-top: 6px solid $sec-gray
+  }
+
+
+}

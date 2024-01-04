@@ -1,0 +1,25 @@
+uuid: fad11f28-c0d9-46dd-9d7c-eee739373809
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:089aece5-5d2f-4b5a-8c17-1cfd32045a66'
+  module:
+    - block_content
+  theme:
+    - arun10
+id: arun10_footertext
+theme: arun10
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:089aece5-5d2f-4b5a-8c17-1cfd32045a66'
+settings:
+  id: 'block_content:089aece5-5d2f-4b5a-8c17-1cfd32045a66'
+  label: 'Footer text'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

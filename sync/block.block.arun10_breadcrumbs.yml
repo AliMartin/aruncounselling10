@@ -1,0 +1,22 @@
+uuid: 2d0c4059-8345-4afe-af55-b55816af590e
+langcode: en-gb
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - arun10
+_core:
+  default_config_hash: SvppycEQ6Nb4MQuE3V6Y9t6_BDwflLyctzku2RXHMMM
+id: arun10_breadcrumbs
+theme: arun10
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

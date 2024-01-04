@@ -1,0 +1,25 @@
+uuid: a2a77b23-17bb-4bbc-8d14-1e9098ced65b
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - arun10
+_core:
+  default_config_hash: E2LoD9cUl-NzoXleZWwF0-vFjFBid0YN4X1ghp8FIrs
+id: arun10_branding
+theme: arun10
+region: header_left
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

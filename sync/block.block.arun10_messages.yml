@@ -1,0 +1,22 @@
+uuid: 58a4ee9c-96b3-4589-a841-df9585325d28
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - arun10
+_core:
+  default_config_hash: nw10remIF-MEn8LIiLhDWhRt-tgJpiaS7EBXD68Xb_w
+id: arun10_messages
+theme: arun10
+region: content
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,19 @@
+@media screen and (min-width: 768px) {
+  #block-arun10-responsivemenumobileicon {
+    display: none;
+  }
+}
+
+.responsive-menu-toggle {
+  display: flex;
+}
+
+.responsive-menu-toggle-icon {
+  margin-top: 5px;
+}
+
+.responsive-menu-toggle-icon:before,
+.responsive-menu-toggle-icon:after,
+.responsive-menu-toggle-icon span.icon {
+  background: $black;
+}

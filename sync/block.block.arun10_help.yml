@@ -1,0 +1,22 @@
+uuid: 1a49b872-0f98-4c14-90bc-f61f0b3e0fd0
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - arun10
+_core:
+  default_config_hash: hZcdDK_dEMU4G2SH0kl5v8Fkg6v5Owsbhsop3qERpxM
+id: arun10_help
+theme: arun10
+region: content
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

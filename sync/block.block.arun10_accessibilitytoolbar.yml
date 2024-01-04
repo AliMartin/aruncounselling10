@@ -1,0 +1,24 @@
+uuid: c3bbe653-1bbf-460e-99f9-53c130fe5f6e
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - civic_accessibility_toolbar
+  theme:
+    - arun10
+id: arun10_accessibilitytoolbar
+theme: arun10
+region: header_right
+weight: -5
+provider: null
+plugin: accessibility_toolbar_block
+settings:
+  id: accessibility_toolbar_block
+  label: 'Accessibility Toolbar'
+  label_display: '0'
+  provider: civic_accessibility_toolbar
+  text_resize: 1
+  color_contrast: 1
+  text_resize_label: Text
+  color_contrast_label: Color
+visibility: {  }

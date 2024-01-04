@@ -1,0 +1,20 @@
+uuid: 44225665-570d-4a22-b2c3-25edd4e0f002
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - responsive_menu
+  theme:
+    - arun10
+id: arun10_responsivemenumobileicon
+theme: arun10
+region: header_right
+weight: -4
+provider: null
+plugin: responsive_menu_toggle
+settings:
+  id: responsive_menu_toggle
+  label: 'Responsive menu mobile icon'
+  label_display: '0'
+  provider: responsive_menu
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: bbb13e21-b2d3-494d-94c4-27e7e0d2060b
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - arun10
+_core:
+  default_config_hash: 507kBQznHXs6UN1r8Cj61RJidZBqoUbBHWHU0Ex0cdE
+id: arun10_content
+theme: arun10
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: c0be6fa0-f90b-4187-9530-8641bde4bde9
+langcode: en-gb
+status: true
+dependencies:
+  theme:
+    - arun10
+_core:
+  default_config_hash: aDylBEHTXVOWNCFEEeMisZV8xx-b3HNOTmGarAoVKOU
+id: arun10_page_title
+theme: arun10
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }
