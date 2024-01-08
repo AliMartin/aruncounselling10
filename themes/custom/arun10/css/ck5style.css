@@ -104,7 +104,7 @@
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
   --bs-body-font-family: "Lato", sans-serif;
-  --bs-body-font-size: 1rem;
+  --bs-body-font-size: 1.2rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #4a4e56;
@@ -247,42 +247,47 @@
   color: var(--bs-heading-color);
 }
 .ck-content h1, .ck-content .h1 {
-  font-size: calc(1.375rem + 1.5vw);
+  font-size: calc(1.425rem + 2.1vw);
 }
 @media (min-width: 1200px) {
   .ck-content h1, .ck-content .h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 }
 .ck-content h2, .ck-content .h2 {
-  font-size: calc(1.325rem + 0.9vw);
+  font-size: calc(1.365rem + 1.38vw);
 }
 @media (min-width: 1200px) {
   .ck-content h2, .ck-content .h2 {
-    font-size: 2rem;
+    font-size: 2.4rem;
   }
 }
 .ck-content h3, .ck-content .h3 {
-  font-size: calc(1.3rem + 0.6vw);
+  font-size: calc(1.335rem + 1.02vw);
 }
 @media (min-width: 1200px) {
   .ck-content h3, .ck-content .h3 {
-    font-size: 1.75rem;
+    font-size: 2.1rem;
   }
 }
 .ck-content h4, .ck-content .h4 {
-  font-size: calc(1.275rem + 0.3vw);
+  font-size: calc(1.305rem + 0.66vw);
 }
 @media (min-width: 1200px) {
   .ck-content h4, .ck-content .h4 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 }
 .ck-content h5, .ck-content .h5 {
-  font-size: 1.25rem;
+  font-size: calc(1.275rem + 0.3vw);
+}
+@media (min-width: 1200px) {
+  .ck-content h5, .ck-content .h5 {
+    font-size: 1.5rem;
+  }
 }
 .ck-content h6, .ck-content .form-wrapper.accordion .accordion-item h2, .ck-content .form-wrapper.accordion .accordion-item .h2, .ck-content .h6 {
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .ck-content p {
   margin-top: 0;
@@ -544,8 +549,13 @@ a > .ck-content code {
   display: none !important;
 }
 .ck-content .lead {
-  font-size: 1.25rem;
+  font-size: calc(1.275rem + 0.3vw);
   font-weight: 300;
+}
+@media (min-width: 1200px) {
+  .ck-content .lead {
+    font-size: 1.5rem;
+  }
 }
 .ck-content .display-1 {
   font-size: calc(1.625rem + 4.5vw);
@@ -627,7 +637,12 @@ a > .ck-content code {
 }
 .ck-content .blockquote {
   margin-bottom: 1rem;
-  font-size: 1.25rem;
+  font-size: calc(1.275rem + 0.3vw);
+}
+@media (min-width: 1200px) {
+  .ck-content .blockquote {
+    font-size: 1.5rem;
+  }
 }
 .ck-content .blockquote > :last-child {
   margin-bottom: 0;
@@ -1959,12 +1974,17 @@ a > .ck-content code {
 .ck-content .col-form-label-lg {
   padding-top: calc(0.5rem + var(--bs-border-width));
   padding-bottom: calc(0.5rem + var(--bs-border-width));
-  font-size: 1.25rem;
+  font-size: calc(1.275rem + 0.3vw);
+}
+@media (min-width: 1200px) {
+  .ck-content .col-form-label-lg {
+    font-size: 1.5rem;
+  }
 }
 .ck-content .col-form-label-sm {
   padding-top: calc(0.25rem + var(--bs-border-width));
   padding-bottom: calc(0.25rem + var(--bs-border-width));
-  font-size: 0.875rem;
+  font-size: 1.05rem;
 }
 .ck-content .form-text {
   margin-top: 0;
@@ -1975,7 +1995,7 @@ a > .ck-content code {
   display: block;
   width: 100%;
   padding: 0.375rem 0.75rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.5;
   color: var(--bs-body-color);
@@ -2064,7 +2084,7 @@ a > .ck-content code {
 .ck-content .form-control-sm {
   min-height: calc(1.5em + 0.5rem + calc(var(--bs-border-width) * 2));
   padding: 0.25rem 0.5rem;
-  font-size: 0.875rem;
+  font-size: 1.05rem;
   border-radius: var(--bs-border-radius-sm);
 }
 .ck-content .form-control-sm::file-selector-button {
@@ -2075,8 +2095,13 @@ a > .ck-content code {
 .ck-content .form-control-lg {
   min-height: calc(1.5em + 1rem + calc(var(--bs-border-width) * 2));
   padding: 0.5rem 1rem;
-  font-size: 1.25rem;
+  font-size: calc(1.275rem + 0.3vw);
   border-radius: var(--bs-border-radius-lg);
+}
+@media (min-width: 1200px) {
+  .ck-content .form-control-lg {
+    font-size: 1.5rem;
+  }
 }
 .ck-content .form-control-lg::file-selector-button {
   padding: 0.5rem 1rem;
@@ -2119,7 +2144,7 @@ a > .ck-content code {
   display: block;
   width: 100%;
   padding: 0.375rem 2.25rem 0.375rem 0.75rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.5;
   color: var(--bs-body-color);
@@ -2158,22 +2183,27 @@ a > .ck-content code {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   padding-left: 0.5rem;
-  font-size: 0.875rem;
+  font-size: 1.05rem;
   border-radius: var(--bs-border-radius-sm);
 }
 .ck-content .form-select-lg {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
-  font-size: 1.25rem;
+  font-size: calc(1.275rem + 0.3vw);
   border-radius: var(--bs-border-radius-lg);
+}
+@media (min-width: 1200px) {
+  .ck-content .form-select-lg {
+    font-size: 1.5rem;
+  }
 }
 .ck-content [data-bs-theme=dark] .form-select {
   --bs-form-select-bg-img: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23dee2e6' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
 }
 .ck-content .form-check {
   display: block;
-  min-height: 1.5rem;
+  min-height: 1.8rem;
   padding-left: 1.5em;
   margin-bottom: 0.125rem;
 }
@@ -2494,7 +2524,7 @@ a > .ck-content code {
   display: flex;
   align-items: center;
   padding: 0.375rem 0.75rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.5;
   color: var(--bs-body-color);
@@ -2512,8 +2542,19 @@ a > .ck-content code {
 .ck-content .input-group-lg > .button,
 .ck-content .input-group-lg > button.link {
   padding: 0.5rem 1rem;
-  font-size: 1.25rem;
+  font-size: calc(1.275rem + 0.3vw);
   border-radius: var(--bs-border-radius-lg);
+}
+@media (min-width: 1200px) {
+  .ck-content .input-group-lg > .form-control,
+.ck-content .input-group-lg > .form-select,
+.ck-content .input-group-lg > .input-group-text,
+.ck-content .input-group-lg > .btn,
+.ck-content .node-preview-container .input-group-lg > .node-preview-backlink,
+.ck-content .input-group-lg > .button,
+.ck-content .input-group-lg > button.link {
+    font-size: 1.5rem;
+  }
 }
 .ck-content .input-group-sm > .form-control,
 .ck-content .input-group-sm > .form-select,
@@ -2523,7 +2564,7 @@ a > .ck-content code {
 .ck-content .input-group-sm > .button,
 .ck-content .input-group-sm > button.link {
   padding: 0.25rem 0.5rem;
-  font-size: 0.875rem;
+  font-size: 1.05rem;
   border-radius: var(--bs-border-radius-sm);
 }
 .ck-content .input-group-lg > .form-select,
@@ -2569,7 +2610,7 @@ a > .ck-content code {
   max-width: 100%;
   padding: 0.25rem 0.5rem;
   margin-top: 0.1rem;
-  font-size: 0.875rem;
+  font-size: 1.05rem;
   color: #fff;
   background-color: var(--bs-success);
   border-radius: var(--bs-border-radius);
@@ -2648,7 +2689,7 @@ a > .ck-content code {
   max-width: 100%;
   padding: 0.25rem 0.5rem;
   margin-top: 0.1rem;
-  font-size: 0.875rem;
+  font-size: 1.05rem;
   color: #fff;
   background-color: var(--bs-danger);
   border-radius: var(--bs-border-radius);
@@ -2716,7 +2757,7 @@ a > .ck-content code {
   --bs-btn-padding-x: 0.75rem;
   --bs-btn-padding-y: 0.375rem;
   --bs-btn-font-family: ;
-  --bs-btn-font-size: 1rem;
+  --bs-btn-font-size: 1.2rem;
   --bs-btn-font-weight: 400;
   --bs-btn-line-height: 1.5;
   --bs-btn-color: var(--bs-body-color);
@@ -3071,13 +3112,18 @@ a > .ck-content code {
 .ck-content .btn-lg, .ck-content .btn-group-lg > .btn, .ck-content .node-preview-container .btn-group-lg > .node-preview-backlink, .ck-content .btn-group-lg > .button, .ck-content .btn-group-lg > button.link {
   --bs-btn-padding-y: 0.5rem;
   --bs-btn-padding-x: 1rem;
-  --bs-btn-font-size: 1.25rem;
+  --bs-btn-font-size: calc(1.275rem + 0.3vw);
   --bs-btn-border-radius: var(--bs-border-radius-lg);
+}
+@media (min-width: 1200px) {
+  .ck-content .btn-lg, .ck-content .btn-group-lg > .btn, .ck-content .node-preview-container .btn-group-lg > .node-preview-backlink, .ck-content .btn-group-lg > .button, .ck-content .btn-group-lg > button.link {
+    --bs-btn-font-size: 1.5rem;
+  }
 }
 .ck-content .btn-sm, .ck-content .btn-group-sm > .btn, .ck-content .node-preview-container .btn-group-sm > .node-preview-backlink, .ck-content .btn-group-sm > .button, .ck-content .btn-group-sm > button.link {
   --bs-btn-padding-y: 0.25rem;
   --bs-btn-padding-x: 0.5rem;
-  --bs-btn-font-size: 0.875rem;
+  --bs-btn-font-size: 1.05rem;
   --bs-btn-border-radius: var(--bs-border-radius-sm);
 }
 .ck-content .fade {
@@ -3144,7 +3190,7 @@ a > .ck-content code {
   --bs-dropdown-padding-x: 0;
   --bs-dropdown-padding-y: 0.5rem;
   --bs-dropdown-spacer: 0.125rem;
-  --bs-dropdown-font-size: 1rem;
+  --bs-dropdown-font-size: 1.2rem;
   --bs-dropdown-color: var(--bs-body-color);
   --bs-dropdown-bg: var(--bs-body-bg);
   --bs-dropdown-border-color: var(--bs-border-color-translucent);
@@ -3395,7 +3441,7 @@ a > .ck-content code {
   display: block;
   padding: var(--bs-dropdown-header-padding-y) var(--bs-dropdown-header-padding-x);
   margin-bottom: 0;
-  font-size: 0.875rem;
+  font-size: 1.05rem;
   color: var(--bs-dropdown-header-color);
   white-space: nowrap;
 }
@@ -3716,15 +3762,15 @@ a > .ck-content code {
   --bs-navbar-hover-color: rgba(var(--bs-emphasis-color-rgb), 0.8);
   --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3);
   --bs-navbar-active-color: rgba(var(--bs-emphasis-color-rgb), 1);
-  --bs-navbar-brand-padding-y: 0.3125rem;
+  --bs-navbar-brand-padding-y: 0.275rem;
   --bs-navbar-brand-margin-end: 1rem;
-  --bs-navbar-brand-font-size: 1.25rem;
+  --bs-navbar-brand-font-size: 1.5rem;
   --bs-navbar-brand-color: rgba(var(--bs-emphasis-color-rgb), 1);
   --bs-navbar-brand-hover-color: rgba(var(--bs-emphasis-color-rgb), 1);
   --bs-navbar-nav-link-padding-x: 0.5rem;
   --bs-navbar-toggler-padding-y: 0.25rem;
   --bs-navbar-toggler-padding-x: 0.75rem;
-  --bs-navbar-toggler-font-size: 1.25rem;
+  --bs-navbar-toggler-font-size: 1.5rem;
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2874, 78, 86, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0.15);
   --bs-navbar-toggler-border-radius: var(--bs-border-radius);
@@ -4373,7 +4419,7 @@ a > .ck-content code {
   align-items: center;
   width: 100%;
   padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: var(--bs-accordion-btn-color);
   text-align: left;
   background-color: var(--bs-accordion-btn-bg);
@@ -4509,7 +4555,7 @@ a > .ck-content code {
 .ck-content .pagination {
   --bs-pagination-padding-x: 0.75rem;
   --bs-pagination-padding-y: 0.375rem;
-  --bs-pagination-font-size: 1rem;
+  --bs-pagination-font-size: 1.2rem;
   --bs-pagination-color: var(--bs-link-color);
   --bs-pagination-bg: var(--bs-body-bg);
   --bs-pagination-border-width: var(--bs-border-width);
@@ -4587,13 +4633,18 @@ a > .ck-content code {
 .ck-content .pagination-lg {
   --bs-pagination-padding-x: 1.5rem;
   --bs-pagination-padding-y: 0.75rem;
-  --bs-pagination-font-size: 1.25rem;
+  --bs-pagination-font-size: calc(1.275rem + 0.3vw);
   --bs-pagination-border-radius: var(--bs-border-radius-lg);
+}
+@media (min-width: 1200px) {
+  .ck-content .pagination-lg {
+    --bs-pagination-font-size: 1.5rem;
+  }
 }
 .ck-content .pagination-sm {
   --bs-pagination-padding-x: 0.5rem;
   --bs-pagination-padding-y: 0.25rem;
-  --bs-pagination-font-size: 0.875rem;
+  --bs-pagination-font-size: 1.05rem;
   --bs-pagination-border-radius: var(--bs-border-radius-sm);
 }
 .ck-content .badge {
@@ -4712,7 +4763,7 @@ a > .ck-content code {
 .ck-content .progress,
 .ck-content .progress-stacked {
   --bs-progress-height: 1rem;
-  --bs-progress-font-size: 0.75rem;
+  --bs-progress-font-size: 0.9rem;
   --bs-progress-bg: var(--bs-secondary-bg);
   --bs-progress-border-radius: var(--bs-border-radius);
   --bs-progress-box-shadow: var(--bs-box-shadow-inset);
@@ -5479,7 +5530,7 @@ a > .ck-content code {
   --bs-tooltip-padding-x: 0.5rem;
   --bs-tooltip-padding-y: 0.25rem;
   --bs-tooltip-margin: ;
-  --bs-tooltip-font-size: 0.875rem;
+  --bs-tooltip-font-size: 1.05rem;
   --bs-tooltip-color: var(--bs-body-bg);
   --bs-tooltip-bg: var(--bs-emphasis-color);
   --bs-tooltip-border-radius: var(--bs-border-radius);
@@ -5568,7 +5619,7 @@ a > .ck-content code {
 .ck-content .popover {
   --bs-popover-zindex: 1070;
   --bs-popover-max-width: 276px;
-  --bs-popover-font-size: 0.875rem;
+  --bs-popover-font-size: 1.05rem;
   --bs-popover-bg: var(--bs-body-bg);
   --bs-popover-border-width: var(--bs-border-width);
   --bs-popover-border-color: var(--bs-border-color-translucent);
@@ -5577,7 +5628,7 @@ a > .ck-content code {
   --bs-popover-box-shadow: var(--bs-box-shadow);
   --bs-popover-header-padding-x: 1rem;
   --bs-popover-header-padding-y: 0.5rem;
-  --bs-popover-header-font-size: 1rem;
+  --bs-popover-header-font-size: 1.2rem;
   --bs-popover-header-color: inherit;
   --bs-popover-header-bg: var(--bs-secondary-bg);
   --bs-popover-body-padding-x: 1rem;
@@ -7715,22 +7766,22 @@ a > .ck-content code {
   font-family: var(--bs-font-monospace) !important;
 }
 .ck-content .fs-1 {
-  font-size: calc(1.375rem + 1.5vw) !important;
+  font-size: calc(1.425rem + 2.1vw) !important;
 }
 .ck-content .fs-2 {
-  font-size: calc(1.325rem + 0.9vw) !important;
+  font-size: calc(1.365rem + 1.38vw) !important;
 }
 .ck-content .fs-3 {
-  font-size: calc(1.3rem + 0.6vw) !important;
+  font-size: calc(1.335rem + 1.02vw) !important;
 }
 .ck-content .fs-4 {
-  font-size: calc(1.275rem + 0.3vw) !important;
+  font-size: calc(1.305rem + 0.66vw) !important;
 }
 .ck-content .fs-5 {
-  font-size: 1.25rem !important;
+  font-size: calc(1.275rem + 0.3vw) !important;
 }
 .ck-content .fs-6 {
-  font-size: 1rem !important;
+  font-size: 1.2rem !important;
 }
 .ck-content .fst-italic {
   font-style: italic !important;
@@ -11085,15 +11136,18 @@ a > .ck-content code {
 }
 @media (min-width: 1200px) {
   .ck-content .fs-1 {
-    font-size: 2.5rem !important;
+    font-size: 3rem !important;
   }
   .ck-content .fs-2 {
-    font-size: 2rem !important;
+    font-size: 2.4rem !important;
   }
   .ck-content .fs-3 {
-    font-size: 1.75rem !important;
+    font-size: 2.1rem !important;
   }
   .ck-content .fs-4 {
+    font-size: 1.8rem !important;
+  }
+  .ck-content .fs-5 {
     font-size: 1.5rem !important;
   }
 }
@@ -11155,7 +11209,7 @@ a > .ck-content code {
 .ck-content .button--small {
   --bs-btn-padding-y: 0.25rem;
   --bs-btn-padding-x: 0.5rem;
-  --bs-btn-font-size: 0.875rem;
+  --bs-btn-font-size: 1.05rem;
   --bs-btn-border-radius: var(--bs-border-radius-sm);
 }
 .ck-content a.button {
@@ -11212,7 +11266,7 @@ a > .ck-content code {
 .ck-content a.button.button--small {
   --bs-btn-padding-y: 0.25rem;
   --bs-btn-padding-x: 0.5rem;
-  --bs-btn-font-size: 0.875rem;
+  --bs-btn-font-size: 1.05rem;
   --bs-btn-border-radius: var(--bs-border-radius-sm);
 }
 .ck-content .btn-primary a {
@@ -11922,8 +11976,84 @@ a > .ck-content code {
   flex-grow: 1;
   justify-content: flex-end;
 }
-.ck-content footer .container {
-  background-color: #d2e0ee;
+.ck-content footer {
+  padding: 15px 0 45px 0;
+  background-color: #687dac;
+  color: #ffffff;
+}
+.ck-content footer .upper-footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.ck-content footer .lower-footer {
+  padding-top: 30px;
+  padding-bottom: 90px;
+}
+.ck-content footer a {
+  color: #ffffff;
+}
+.ck-content footer a:hover, .ck-content footer a:active {
+  color: #dc3545;
+}
+.ck-content #block-arun10-bacplogo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.ck-content #footer-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.ck-content #footer-text span {
+  display: block;
+}
+.ck-content #footer-text span.charity {
+  margin-bottom: 15px;
+}
+.ck-content #footer-text i,
+.ck-content #footer-text svg {
+  margin-right: 5px;
+}
+.ck-content #hyperluminal {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+}
+.ck-content #hyperluminal span.text {
+  text-transform: uppercase;
+  font-size: 9px;
+  letter-spacing: 2px;
+}
+.ck-content #hyperluminal img {
+  width: 100px;
+  height: auto;
+}
+.ck-content #block-arun10-sponsorlogos {
+  margin-bottom: 90px;
+}
+.ck-content #block-arun10-sponsorlogos h2, .ck-content #block-arun10-sponsorlogos .h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.ck-content #sponsor-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.ck-content #sponsor-logos img {
+  height: auto;
+}
+.ck-content #sponsor-logos .lions img {
+  width: 120px;
+}
+.ck-content #sponsor-logos .sussex-community img {
+  width: 140px;
 }
 .ck-content #block-arun10-mainnavigation ul.tbm-nav {
   justify-content: center;
@@ -11975,6 +12105,60 @@ a > .ck-content code {
 .ck-content .responsive-menu-toggle-icon:after,
 .ck-content .responsive-menu-toggle-icon span.icon {
   background: #000000;
+}
+.ck-content main .region-content {
+  max-width: 850px;
+  margin: 30px auto 90px auto;
+}
+.ck-content #address-telephone-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  background-color: #687dac;
+  color: #ffffff;
+  border-radius: 7px;
+  border-radius: 200px;
+  padding: 15px;
+  margin-bottom: 90px;
+  font-size: 1rem;
+}
+.ck-content #address-telephone-block img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.ck-content #address-telephone-block .outer-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.ck-content #address-telephone-block .inner-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ck-content #address-telephone-block h5, .ck-content #address-telephone-block .h5 {
+  margin-bottom: 5px;
+}
+.ck-content #address-telephone-block .round-button a {
+  display: inline-flex;
+  width: 150px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #687dac;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+.ck-content #address-telephone-block .round-button a:hover, .ck-content #address-telephone-block .round-button a:focus {
+  background-color: #dc3545;
+  color: #ffffff;
+}
+.ck-content #address-telephone-block .round-button svg {
+  margin-right: 5px;
 }
 
 /*# sourceMappingURL=ck5style.css.map */

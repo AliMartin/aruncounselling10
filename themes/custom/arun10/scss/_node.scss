@@ -1,0 +1,72 @@
+// Main page content
+main .region-content {
+  max-width: 850px;
+  margin: 30px auto 90px auto;
+}
+
+// Address block
+#address-telephone-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  background-color: $blue;
+  color: $white;
+  border-radius: $border-radius;
+  border-radius: 200px;
+  padding: 15px;
+  margin-bottom: 90px;
+  font-size: 1rem;
+
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  .outer-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .inner-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  h5 {
+    margin-bottom: 5px;
+  }
+
+  .round-button {
+
+    a {
+      display: inline-flex;
+      width: 150px;
+      height: 30px;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      background-color: $white;
+      color: $blue;
+      border-radius: 50px;
+      margin-right: 10px;
+
+      &:hover,
+      &:focus {
+        background-color: $red;
+        color: $white;
+      }
+    }
+
+    svg {
+      margin-right: 5px;
+    }
+
+    span {
+      // display: none;
+    }  
+  }
+}

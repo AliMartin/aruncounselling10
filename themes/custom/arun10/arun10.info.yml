@@ -17,6 +17,8 @@ regions:
   content: 'Main content'
   sidebar_first: 'Sidebar first'
   sidebar_second: 'Sidebar second'
-  footer: Footer
+  logo_strip: 'Logo strip'
+  footer_upper: 'Upper footer'
+  footer_lower: 'Lower footer'
 libraries-override:
   bootstrap5/global-styling: false

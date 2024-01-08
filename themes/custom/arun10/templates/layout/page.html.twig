@@ -113,12 +113,17 @@ set footer_classes = ' ' ~
     </div>
   </div>
 
+    <div class="container logo-strip">
+    {{ page.logo_strip }}
+  </div>
+
 </main>
 
-{% if page.footer %}
-<footer class="mt-auto {{ footer_classes }}">
-  <div class="{{ b5_top_container }}">
-    {{ page.footer }}
+<footer class="{{ footer_classes }}">
+  <div class="container upper-footer">
+    {{ page.footer_upper }}
+  </div>
+  <div class="container lower-footer">
+    {{ page.footer_lower }}
   </div>
 </footer>
-{% endif %}

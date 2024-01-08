@@ -1,5 +1,95 @@
 footer {
-  .container {
-    background-color: $cyan;
+
+  padding: 15px 0 45px 0;
+  background-color: $blue;
+  color: $white;
+
+  .upper-footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .lower-footer {
+    padding-top: 30px;
+    padding-bottom: 90px;
+  }
+
+  a {
+    color: $white;
+    &:hover,
+    &:active {
+      color: $red;
+    }
   }
 }
+
+#block-arun10-bacplogo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+#footer-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+  span {
+    display: block;
+  }
+
+  span.charity {
+    margin-bottom: 15px;
+  }
+
+  i,
+  svg {
+    margin-right: 5px;
+  }
+}
+
+#hyperluminal {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  text-align: center;
+
+  span.text {
+    text-transform: uppercase;
+    font-size: 9px;
+    letter-spacing: 2px;
+  }
+
+  img {
+    width: 100px;
+    height: auto;
+  }
+}
+
+
+#block-arun10-sponsorlogos {
+  margin-bottom: 90px;
+  h2 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+}
+
+#sponsor-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    height: auto;
+  }
+
+  .lions img {width: 120px;}
+  .sussex-community img {width: 140px;}
+}  
+
+
