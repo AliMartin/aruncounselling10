@@ -1,0 +1,83 @@
+#block-arun10-topmenu-2 {
+  nav.tbm {
+    background-color: inherit;
+    padding-left: 210px; // Allows submenus to expand to this width
+  }
+
+  ul.tbm-nav {
+    gap: 10px;
+  }
+
+  li.tbm-item.level-1 {
+    border-right: inherit;
+
+    .tbm-link-container {
+      align-items: center;
+    }
+
+    a {
+      background-color: $gray-dark;
+      color: $white;
+      text-decoration: none;
+      font-size: 1rem;
+      line-height: 1;
+      font-weight: $font-weight-bold;
+      border-radius: 20px;
+      padding: 10px 20px;
+    }
+
+  }
+
+  .tbm-submenu {
+    margin-top: 6px;
+    border: 6px solid $gray-dark;
+    border-radius: 20px;
+
+    h2 {
+      font-size: x-large;
+    }
+  }
+
+  // Donate
+  li.tbm-item.level-1.top-menu-donate {
+    a {
+      background-color: $yellow;
+      color: $gray-dark;
+    }
+  }
+
+  // Tweak these top nav buttons
+  li.tbm-item.level-1.top-menu-telephone,
+  li.tbm-item.level-1.top-menu-email {
+    a.level-1 {
+      font-size: 0;
+      padding: 0;
+
+      span,
+      svg {
+        font-size: 16px;
+        padding: 10px;
+        margin-right: inherit;
+      }  
+    }
+  }
+
+  li.tbm-item.level-1.top-menu-accessibility {
+    a.level-1 {
+      font-size: 0;
+      padding: 0;
+      color: $gray-dark;
+
+      span,
+      svg {
+        font-size: 36px;
+        padding: 0px;
+        margin-right: inherit;
+        color: $white;
+        &::after {
+          color: $gray-dark;
+        }
+      }  
+    }
+  }
+}

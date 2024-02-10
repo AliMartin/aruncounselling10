@@ -1,8 +1,81 @@
+// Address block
+#address-telephone-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  max-width: 1100px;
+  background-color: $gray-dark;
+  color: $white;
+  border-radius: $border-radius;
+  border-radius: 200px;
+  padding: 15px;
+  margin: 0 auto 90px auto;
+  font-size: 1rem;
+
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  .outer-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .inner-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  h5 {
+    color: $white;
+    margin-bottom: 5px;
+  }
+
+  .round-button {
+
+    a {
+      display: inline-flex;
+      width: 150px;
+      height: 30px;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      background-color: $white;
+      color: $blue;
+      border-radius: 50px;
+      margin-right: 10px;
+
+      &:hover,
+      &:focus {
+        background-color: $red;
+        color: $white;
+      }
+    }
+
+    svg {
+      margin-right: 5px;
+    }
+
+    span {
+      // display: none;
+    }  
+  }
+}
+
+
+// Footer
 footer {
 
   padding: 15px 0 45px 0;
-  background-color: $blue;
-  color: $white;
+  background-color: $white;
+  font-size: medium;
+  color: $gray-dark;
+  border-top: 6px solid $gray;
 
   .upper-footer {
     padding-top: 30px;
@@ -15,7 +88,7 @@ footer {
   }
 
   a {
-    color: $white;
+    color: $gray-dark;
     &:hover,
     &:active {
       color: $red;
@@ -88,6 +161,7 @@ footer {
     height: auto;
   }
 
+  .lottery img {width: 240px;}
   .lions img {width: 120px;}
   .sussex-community img {width: 140px;}
 }  

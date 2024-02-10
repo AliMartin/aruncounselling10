@@ -9,12 +9,15 @@
 @import '../../../../themes/contrib/bootstrap5/scss/style';
 
 // Import fonts
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Raleway:wght@200;400&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Licorice&family=Montserrat:wght@200;400;500;700&display=swap');
 
 // Style sheets
 @import "header";
 @import "footer";
 @import "menu_desktop";
+@import "menu_top";
 @import "menu_mobile";
 @import "links";
 @import "node";

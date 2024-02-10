@@ -96,6 +96,11 @@ set footer_classes = ' ' ~
     {% if page.breadcrumb %}
       {{ page.breadcrumb }}
     {% endif %}
+
+    {% if page.banner %}
+      {{ page.banner }}
+    {% endif %}
+
     <div class="row g-0">
       {% if page.sidebar_first %}
         <div class="order-2 order-lg-1 {{ sidebar_first_classes }}">

@@ -1,50 +1,93 @@
 #block-arun10-mainnavigation {
 
+  nav.tbm {
+    background-color: inherit;
+  }
+
   // Centre align the main navigation
   ul.tbm-nav {
     justify-content: center;
+
+    > li,
+    .tbm-link.level-1 {
+      border-radius: 20px 20px 0 0;
+      border-right: inherit;
+      margin: 0 5px;
+    }
+
+    .tbm-link.level-1 {
+        color: $white;
+        font-size: 1rem;
+        line-height: 1;
+        font-weight: $font-weight-bold;
+        text-decoration: none;
+    }
+
+    .tbm-submenu {
+      border-radius: 20px;
+    }
   }
 
   // Colour code the main menu items
-  // Individuals = green
+  // Home = gray
+  .menu-home,
+  .menu-home .tbm-link.level-1:hover,
+  .menu-home.open .tbm-link.level-1 {
+    background-color: $gray-dark;
+  }
+  .tbm-item.menu-home .tbm-submenu {
+    border: 6px solid $gray-dark;
+  }
+
+
+  // Individuals = blue
   .menu-individuals,
   .menu-individuals .tbm-link.level-1:hover,
   .menu-individuals.open .tbm-link.level-1 {
-    background-color: $sec-green;
+    background-color: $blue;
   }
   .tbm-item.menu-individuals .tbm-submenu {
-    border-top: 6px solid $sec-green
+    border: 6px solid $blue;
   }
 
   // Employers = red
   .menu-employers,
   .menu-employers .tbm-link.level-1:hover,
   .menu-employers.open .tbm-link.level-1 {
-    background-color: $sec-red;
+    background-color: $red;
   }
   .tbm-item.menu-employers .tbm-submenu {
-    border-top: 6px solid $sec-red
+    border: 6px solid $red;
   }
 
-  // Professionals = blue
+  // Professionals = orange
   .menu-professionals,
   .menu-professionals .tbm-link.level-1:hover,
   .menu-professionals.open .tbm-link.level-1 {
-    background-color: $sec-blue;
+    background-color: $orange;
   }
   .tbm-item.menu-professionals .tbm-submenu {
-    border-top: 6px solid $sec-blue
+    border: 6px solid $orange;
   }
 
-  // About = gray
+  // About = teal
   .menu-about,
   .menu-about .tbm-link.level-1:hover,
   .menu-about.open .tbm-link.level-1 {
-    background-color: $sec-gray;
+    background-color: $teal;
   }
   .tbm-item.menu-about .tbm-submenu {
-    border-top: 6px solid $sec-gray
+    border: 6px solid $teal;
   }
 
+
+  // Structure the mega menu
+  .tbm-submenu {
+    .tbm-row:first-of-type {
+      float: left;
+      width: 300px;
+      margin-right: 30px;
+    }
+  }
 
 }
