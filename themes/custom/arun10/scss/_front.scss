@@ -1,0 +1,50 @@
+.path-frontpage {
+  ul.nav-tabs {
+    justify-content: center !important;
+  }
+
+  main .region-content {
+    max-width: inherit;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 90px;
+  }
+  #block-arun10-forindividuals-2,
+  #block-arun10-foremployers-2,
+  #block-arun10-forprofessionals-2 {
+    color: $white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+
+    h2 {
+      color: $white;
+      margin-bottom: 30px;
+    }
+
+    .field--name-field-media-image {
+      margin-bottom: 30px;
+    }
+
+    img {
+      border-radius: 20px;
+      border: 6px solid $white;
+    }
+
+    .field--name-body {
+      max-width: 850px;
+      margin: 0 auto 0 auto;
+    }
+  }
+  #block-arun10-forindividuals-2 {
+    background-color: $blue;
+  }
+  #block-arun10-foremployers-2 {
+    background-color: $red;
+  }
+  #block-arun10-forprofessionals-2 {
+    background-color: $orange;
+  }
+}

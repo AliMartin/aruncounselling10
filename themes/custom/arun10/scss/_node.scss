@@ -13,13 +13,11 @@ main .region-content {
 
 
 // Branding
-
 .navbar-brand a.site-title {
-  font-family: 'Licorice', cursive;
-  font-weight: 600;
+  font-weight: $font-weight-bold;
   color: $gray-dark;
   text-decoration: none;
-  font-size: 3rem;
+  font-size: 2rem;
   letter-spacing: inherit;
   text-transform: inherit;
 }
@@ -78,7 +76,8 @@ main .region-content {
 
 #section-banner.section-about {
   background-color: $teal;
-  .icon {color: $teal;
+  .icon {
+    color: $teal;
   }
 }
 
@@ -86,6 +85,11 @@ main .region-content {
 
 
 #block-arun10-content {
+
+  .node__content > div {
+    margin-bottom: 45px;
+  }
+
   .field--name-field-media-image {
     margin-bottom: 30px;
   
@@ -94,3 +98,37 @@ main .region-content {
     }
   }
 }
+
+
+// File icons
+
+.field--name-field-attachments {
+
+  .field__item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+
+    span {
+      display: block;
+    }
+  }
+}
+
+.file:first-of-type {
+  min-height: 32px;
+  padding-left: 42px;
+}
+
+.file--general                {background-image: url(../images/icons/text-plain.png);}
+.file--application-pdf        {background-image: url(../images/icons/application-pdf.png);}
+.file--x-office-spreadsheet   {background-image: url(../images/icons/x-office-spreadsheet.png);}
+.file--x-office-document      {background-image: url(../images/icons/x-office-document.png);}
+.file--x-office-presentation  {background-image: url(../images/icons/x-office-presentation.png);}
+.file--text-x-script          {background-image: url(../images/icons/text-x-script.png);}
+.file--text-plain             {background-image: url(../images/icons/text-plain.png);}
+.file--video                  {background-image: url(../images/icons/video-x-generic.png);}
+.file--text                   {background-image: url(../images/icons/text-x-generic.png);}
+.file--image                  {background-image: url(../images/icons/image-x-generic.png);}

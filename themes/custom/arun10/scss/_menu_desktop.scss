@@ -24,7 +24,24 @@
     }
 
     .tbm-submenu {
+      padding: 30px;
       border-radius: 20px;
+
+      .field--name-field-media-image {
+        margin-bottom: 10px;
+        img {
+          border-radius: $border-radius;
+        }
+      }
+
+      a {
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+          color: $gray-dark;
+        }
+      }
+
     }
   }
 
@@ -86,7 +103,7 @@
     .tbm-row:first-of-type {
       float: left;
       width: 300px;
-      margin-right: 30px;
+      margin-right: 45px;
     }
   }
 
