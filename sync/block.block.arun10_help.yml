@@ -10,8 +10,8 @@ _core:
   default_config_hash: hZcdDK_dEMU4G2SH0kl5v8Fkg6v5Owsbhsop3qERpxM
 id: arun10_help
 theme: arun10
-region: content
-weight: -3
+region: content_header
+weight: -9
 provider: null
 plugin: help_block
 settings:

@@ -1,0 +1,30 @@
+uuid: 37d00c31-2c59-445d-b084-372ea33ec24c
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:front_page:cd71defe-3f56-45e7-b6e2-272251f4c2d6'
+  module:
+    - block_content
+    - system
+  theme:
+    - arun10
+id: arun10_forindividuals_2
+theme: arun10
+region: content_top
+weight: -12
+provider: null
+plugin: 'block_content:cd71defe-3f56-45e7-b6e2-272251f4c2d6'
+settings:
+  id: 'block_content:cd71defe-3f56-45e7-b6e2-272251f4c2d6'
+  label: 'For individuals'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

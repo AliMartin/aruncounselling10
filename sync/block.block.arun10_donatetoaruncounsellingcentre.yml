@@ -1,0 +1,25 @@
+uuid: f7752cdf-8fe7-423f-8014-58eaf05edc6f
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:fb37bec6-bf7b-4f32-b138-1a4b25ecc522'
+  module:
+    - block_content
+  theme:
+    - arun10
+id: arun10_donatetoaruncounsellingcentre
+theme: arun10
+region: mege_menu
+weight: 0
+provider: null
+plugin: 'block_content:fb37bec6-bf7b-4f32-b138-1a4b25ecc522'
+settings:
+  id: 'block_content:fb37bec6-bf7b-4f32-b138-1a4b25ecc522'
+  label: 'Donate to Arun Counselling Centre'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

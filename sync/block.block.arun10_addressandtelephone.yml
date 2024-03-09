@@ -1,0 +1,25 @@
+uuid: 0e1abbe8-b37b-4130-bfea-917dbb85cb3d
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6c0eed72-bfb9-4ae9-874a-9f78e40d4f7a'
+  module:
+    - block_content
+  theme:
+    - arun10
+id: arun10_addressandtelephone
+theme: arun10
+region: logo_strip
+weight: -7
+provider: null
+plugin: 'block_content:6c0eed72-bfb9-4ae9-874a-9f78e40d4f7a'
+settings:
+  id: 'block_content:6c0eed72-bfb9-4ae9-874a-9f78e40d4f7a'
+  label: 'Address and telephone'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

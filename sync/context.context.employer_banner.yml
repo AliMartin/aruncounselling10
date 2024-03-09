@@ -1,0 +1,49 @@
+uuid: 2c732a49-ec19-4fa6-8a3a-0237b3097f10
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e71bd7e3-49dd-4828-b36a-232ce0254554'
+  module:
+    - block_content
+    - term_condition
+label: 'Employer banner'
+name: employer_banner
+group: 'Menu section'
+description: ''
+requireAllConditions: false
+disabled: false
+conditions:
+  term:
+    id: term
+    negate: false
+    uuid: a81b9a0c-ee4a-4827-aa39-e97a884b27ad
+    context_mapping: {  }
+    term_uuids:
+      - 5e6ad99f-2e45-496d-abee-229b9e1dec06
+reactions:
+  blocks:
+    id: blocks
+    uuid: 4ad83426-5352-4dbf-bba7-57ba9de7b0cc
+    blocks:
+      1d7b6dcf-2eec-467b-a9b9-1c4322539ae0:
+        uuid: 1d7b6dcf-2eec-467b-a9b9-1c4322539ae0
+        id: 'block_content:e71bd7e3-49dd-4828-b36a-232ce0254554'
+        label: 'Banner - for employers'
+        provider: block_content
+        label_display: '0'
+        region: banner
+        weight: '0'
+        custom_id: block_content_e71bd7e3_49dd_4828_b36a_232ce0254554
+        theme: arun10
+        css_class: ''
+        unique: 0
+        context_id: employer_banner
+        context_mapping: {  }
+        status: true
+        info: ''
+        view_mode: full
+        third_party_settings: {  }
+    include_default_blocks: 1
+    saved: false
+weight: 0

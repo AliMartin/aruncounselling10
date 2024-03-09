@@ -8,8 +8,8 @@ _core:
   default_config_hash: aDylBEHTXVOWNCFEEeMisZV8xx-b3HNOTmGarAoVKOU
 id: arun10_page_title
 theme: arun10
-region: content
-weight: -6
+region: content_header
+weight: -11
 provider: null
 plugin: page_title_block
 settings:

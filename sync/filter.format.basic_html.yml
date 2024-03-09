@@ -2,6 +2,8 @@ uuid: 47b97f04-571e-43e3-91ba-0f9398a2d725
 langcode: en-gb
 status: true
 dependencies:
+  config:
+    - core.entity_view_mode.media.full
   module:
     - editor
     - media
@@ -11,15 +13,12 @@ name: 'Basic HTML'
 format: basic_html
 weight: -10
 filters:
-  filter_html:
-    id: filter_html
-    provider: filter
+  editor_file_reference:
+    id: editor_file_reference
+    provider: editor
     status: true
-    weight: -10
-    settings:
-      allowed_html: '<br> <p> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <cite> <dl> <dt> <dd> <a hreflang href> <blockquote cite> <ul type> <ol start type> <strong> <em> <code> <li> <drupal-media data-entity-type data-entity-uuid alt data-caption data-align>'
-      filter_html_help: false
-      filter_html_nofollow: false
+    weight: 11
+    settings: {  }
   filter_align:
     id: filter_align
     provider: filter
@@ -32,6 +31,15 @@ filters:
     status: true
     weight: 8
     settings: {  }
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: true
+    weight: -10
+    settings:
+      allowed_html: '<br> <p> <h2 id> <h3 id> <h4 id> <h5 id> <h6 id> <cite> <dl> <dt> <dd> <a hreflang href> <blockquote cite> <ul type> <ol type start> <strong> <em> <code> <li> <drupal-media data-entity-type data-entity-uuid alt data-caption data-align>'
+      filter_html_help: false
+      filter_html_nofollow: false
   filter_html_image_secure:
     id: filter_html_image_secure
     provider: filter
@@ -44,18 +52,12 @@ filters:
     status: true
     weight: 15
     settings: {  }
-  editor_file_reference:
-    id: editor_file_reference
-    provider: editor
-    status: true
-    weight: 11
-    settings: {  }
   media_embed:
     id: media_embed
     provider: media
     status: true
     weight: 100
     settings:
-      default_view_mode: default
+      default_view_mode: full
       allowed_view_modes: {  }
       allowed_media_types: {  }

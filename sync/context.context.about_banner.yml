@@ -1,0 +1,49 @@
+uuid: 362ae761-a860-40ba-ac60-8ae5767b3c7f
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1eb7cf88-2f86-42e7-ab83-d4f32c9913d0'
+  module:
+    - block_content
+    - term_condition
+label: 'About banner'
+name: about_banner
+group: 'Menu section'
+description: ''
+requireAllConditions: false
+disabled: false
+conditions:
+  term:
+    id: term
+    negate: false
+    uuid: a81b9a0c-ee4a-4827-aa39-e97a884b27ad
+    context_mapping: {  }
+    term_uuids:
+      - 173ef845-df9e-4eef-bcee-2a1c4cc10a06
+reactions:
+  blocks:
+    id: blocks
+    uuid: 4ad83426-5352-4dbf-bba7-57ba9de7b0cc
+    blocks:
+      5f690350-266a-4759-a332-6e0ced7accdf:
+        uuid: 5f690350-266a-4759-a332-6e0ced7accdf
+        id: 'block_content:1eb7cf88-2f86-42e7-ab83-d4f32c9913d0'
+        label: 'Banner - about Arun Counselling'
+        provider: block_content
+        label_display: '0'
+        region: banner
+        weight: '0'
+        custom_id: block_content_1eb7cf88_2f86_42e7_ab83_d4f32c9913d0
+        theme: arun10
+        css_class: ''
+        unique: 0
+        context_id: about_banner
+        context_mapping: {  }
+        status: true
+        info: ''
+        view_mode: full
+        third_party_settings: {  }
+    include_default_blocks: 1
+    saved: false
+weight: 0

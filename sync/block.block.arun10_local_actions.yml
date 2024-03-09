@@ -8,8 +8,8 @@ _core:
   default_config_hash: QY70BpsXZ1p32UjiZlUGCmk6EQcBAzFQhl80Fo7jFRc
 id: arun10_local_actions
 theme: arun10
-region: content
-weight: -2
+region: content_header
+weight: -8
 provider: null
 plugin: local_actions_block
 settings:

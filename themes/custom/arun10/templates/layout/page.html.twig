@@ -108,7 +108,15 @@ set footer_classes = ' ' ~
         </div>
       {% endif %}
       <div class="order-1 order-lg-2 {{ content_classes }}">
-        {{ page.content }}
+        <div id="content-header">
+          {{ page.content_header }}
+        </div>
+        <div id="top-content">
+          {{ page.content_top }}
+        </div>
+        <div id="main-content">
+          {{ page.content }}
+        </div>
       </div>
       {% if page.sidebar_second %}
         <div class="order-3 {{ sidebar_second_classes }}">

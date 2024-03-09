@@ -1,4 +1,4 @@
-uuid: c3bbe653-1bbf-460e-99f9-53c130fe5f6e
+uuid: 8ea17e31-6ce1-43fd-b5d8-778387860a34
 langcode: en-gb
 status: true
 dependencies:
@@ -8,17 +8,17 @@ dependencies:
     - arun10
 id: arun10_accessibilitytoolbar
 theme: arun10
-region: header_right
-weight: -5
+region: mege_menu
+weight: 0
 provider: null
 plugin: accessibility_toolbar_block
 settings:
   id: accessibility_toolbar_block
-  label: 'Accessibility Toolbar'
-  label_display: '0'
+  label: 'Accessibility controls'
+  label_display: visible
   provider: civic_accessibility_toolbar
   text_resize: 1
   color_contrast: 1
   text_resize_label: Text
-  color_contrast_label: Color
+  color_contrast_label: Colour
 visibility: {  }

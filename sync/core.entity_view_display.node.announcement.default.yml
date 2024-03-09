@@ -1,0 +1,39 @@
+uuid: 6c78823d-3861-490a-9ea5-a775ce0fc10e
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.field.node.announcement.body
+    - field.field.node.announcement.field_image
+    - node.type.announcement
+  module:
+    - text
+    - user
+id: node.announcement.default
+targetEntityType: node
+bundle: announcement
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: full
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  langcode: true

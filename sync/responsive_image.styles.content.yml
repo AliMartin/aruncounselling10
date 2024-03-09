@@ -1,0 +1,13 @@
+uuid: 4d4204be-3cbc-4a16-b8ca-1a56632332ec
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - image.style.content_900px
+  theme:
+    - arun10
+id: content
+label: Content
+image_style_mappings: {  }
+breakpoint_group: arun10.screen
+fallback_image_style: content_900px

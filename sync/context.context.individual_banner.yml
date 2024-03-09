@@ -1,0 +1,49 @@
+uuid: 598b9a90-f971-4d59-9879-3490d8069da1
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e6b2dd72-0223-4724-b0a3-54f1c3f6c642'
+  module:
+    - block_content
+    - term_condition
+label: 'Individual banner'
+name: individual_banner
+group: 'Menu section'
+description: ''
+requireAllConditions: false
+disabled: false
+conditions:
+  term:
+    id: term
+    negate: false
+    uuid: a81b9a0c-ee4a-4827-aa39-e97a884b27ad
+    context_mapping: {  }
+    term_uuids:
+      - b13107d3-8d60-43c8-ae7c-77d7e3fa7459
+reactions:
+  blocks:
+    id: blocks
+    uuid: 4ad83426-5352-4dbf-bba7-57ba9de7b0cc
+    blocks:
+      c445dd1f-0062-4afb-8b57-e1a0d638cdea:
+        uuid: c445dd1f-0062-4afb-8b57-e1a0d638cdea
+        id: 'block_content:e6b2dd72-0223-4724-b0a3-54f1c3f6c642'
+        label: 'Banner - for individuals'
+        provider: block_content
+        label_display: '0'
+        region: banner
+        weight: '0'
+        custom_id: block_content_e6b2dd72_0223_4724_b0a3_54f1c3f6c642
+        theme: arun10
+        css_class: ''
+        unique: 0
+        context_id: individual_banner
+        context_mapping: {  }
+        status: true
+        info: ''
+        view_mode: full
+        third_party_settings: {  }
+    include_default_blocks: 1
+    saved: false
+weight: 0

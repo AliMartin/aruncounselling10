@@ -4,9 +4,15 @@ status: true
 dependencies:
   config:
     - field.field.node.article.body
+    - field.field.node.article.field_attachments
+    - field.field.node.article.field_faq
+    - field.field.node.article.field_image
+    - field.field.node.article.field_menu_section
     - field.field.node.article.field_tags
     - node.type.article
   module:
+    - faqfield
+    - file
     - text
     - user
 _core:
@@ -21,20 +27,52 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
+    weight: 1
+    region: content
+  field_attachments:
+    type: file_default
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_faq:
+    type: faqfield_accordion
+    label: hidden
+    settings:
+      active: 0
+      heightStyle: content
+      collapsible: false
+      event: click
+      animate:
+        easing: linear
+        duration: 200
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_image:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: full
+      link: false
+    third_party_settings: {  }
     weight: 0
     region: content
   field_tags:
     type: entity_reference_label
-    label: above
+    label: hidden
     settings:
       link: true
     third_party_settings: {  }
-    weight: 10
+    weight: 4
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 5
     region: content
 hidden:
+  field_menu_section: true
   langcode: true

@@ -1,0 +1,25 @@
+uuid: 3c8f128e-1794-4136-92ad-8511adc78458
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:menu_information:62bf3291-14be-4db2-a913-b507d1d361a0'
+  module:
+    - block_content
+  theme:
+    - arun10
+id: arun10_foremployers
+theme: arun10
+region: mege_menu
+weight: 0
+provider: null
+plugin: 'block_content:62bf3291-14be-4db2-a913-b507d1d361a0'
+settings:
+  id: 'block_content:62bf3291-14be-4db2-a913-b507d1d361a0'
+  label: 'For employers'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

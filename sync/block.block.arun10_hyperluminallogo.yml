@@ -1,0 +1,25 @@
+uuid: bb1d8338-0b61-4881-a9ab-6e41a02bbc46
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:1f09f093-2e73-45e5-9cf6-f8c0d32af138'
+  module:
+    - block_content
+  theme:
+    - arun10
+id: arun10_hyperluminallogo
+theme: arun10
+region: footer_lower
+weight: -6
+provider: null
+plugin: 'block_content:1f09f093-2e73-45e5-9cf6-f8c0d32af138'
+settings:
+  id: 'block_content:1f09f093-2e73-45e5-9cf6-f8c0d32af138'
+  label: 'Hyperluminal logo'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

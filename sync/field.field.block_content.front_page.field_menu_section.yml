@@ -1,0 +1,29 @@
+uuid: 0f9e8780-adc3-4d71-a40f-7e635caef738
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - block_content.type.front_page
+    - field.storage.block_content.field_menu_section
+    - taxonomy.vocabulary.menu_section
+id: block_content.front_page.field_menu_section
+field_name: field_menu_section
+entity_type: block_content
+bundle: front_page
+label: 'Menu section'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      menu_section: menu_section
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

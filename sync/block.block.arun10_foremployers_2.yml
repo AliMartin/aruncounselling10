@@ -1,0 +1,30 @@
+uuid: ee479795-0954-4411-88c1-b7ca704201e3
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:front_page:cc4a6884-d4bc-48cc-9fa2-9ba1a63b92c0'
+  module:
+    - block_content
+    - system
+  theme:
+    - arun10
+id: arun10_foremployers_2
+theme: arun10
+region: content_top
+weight: -11
+provider: null
+plugin: 'block_content:cc4a6884-d4bc-48cc-9fa2-9ba1a63b92c0'
+settings:
+  id: 'block_content:cc4a6884-d4bc-48cc-9fa2-9ba1a63b92c0'
+  label: 'For employers'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

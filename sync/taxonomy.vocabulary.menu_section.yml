@@ -1,0 +1,8 @@
+uuid: 6372ba06-a7ea-443b-a1b7-b8f4f204d5fb
+langcode: en-gb
+status: true
+dependencies: {  }
+name: 'Menu section'
+vid: menu_section
+description: 'Used to categorise nodes that appear on the main menu'
+weight: 0

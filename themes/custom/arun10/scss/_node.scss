@@ -4,6 +4,10 @@ main .region-content {
   margin: 30px auto 90px auto;
 }
 
+#content-header {
+  max-width: 850px;
+  margin: 30px auto 0 auto;
+}
 
 
 .mm-page,
@@ -31,7 +35,7 @@ main .region-content {
   align-items: center;
   gap: 10px;
   max-width: 850px;
-  margin: 0 auto 15px auto;
+  margin: 30px auto 0 auto;
   padding: 5px;
   border-radius: 40px;
 

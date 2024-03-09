@@ -3,7 +3,7 @@ _core:
 langcode: en-gb
 horizontal_menu: main
 horizontal_depth: 9
-off_canvas_menus: main
+off_canvas_menus: 'main,top-menu-mobile'
 horizontal_wrapping_element: nav
 horizontal_breakpoint: md-max
 horizontal_media_query: '(max-width: 991.98px)'

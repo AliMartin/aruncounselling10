@@ -10,8 +10,8 @@ dependencies:
     - arun10
 id: arun10_footertext
 theme: arun10
-region: footer
-weight: 0
+region: footer_upper
+weight: -5
 provider: null
 plugin: 'block_content:089aece5-5d2f-4b5a-8c17-1cfd32045a66'
 settings:

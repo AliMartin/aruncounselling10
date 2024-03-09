@@ -1,0 +1,25 @@
+uuid: 76484ddb-0cdc-4e2d-b74d-051e4b6b56a8
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:menu_information:49d3b04a-3eb7-4046-86b1-3416887776b6'
+  module:
+    - block_content
+  theme:
+    - arun10
+id: arun10_forprofessionals
+theme: arun10
+region: mege_menu
+weight: 0
+provider: null
+plugin: 'block_content:49d3b04a-3eb7-4046-86b1-3416887776b6'
+settings:
+  id: 'block_content:49d3b04a-3eb7-4046-86b1-3416887776b6'
+  label: 'For professionals'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

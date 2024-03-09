@@ -1,0 +1,8 @@
+uuid: 668bd1ed-ce6f-4366-9bde-3dd21fbd58f1
+langcode: en-gb
+status: true
+dependencies: {  }
+id: top-menu-mobile
+label: 'Top menu mobile'
+description: 'This are top menu mobile items that are moved to the main menu on mobile'
+locked: false

@@ -19,7 +19,7 @@
       background-color: $gray-dark;
       color: $white;
       text-decoration: none;
-      font-size: 1rem;
+      font-size: 16px;
       line-height: 1;
       font-weight: $font-weight-bold;
       border-radius: 20px;
@@ -30,7 +30,7 @@
 
   .tbm-submenu {
     margin-top: 6px;
-    border: 6px solid $gray-dark;
+    border: $border-thick solid $gray-dark;
     border-radius: 20px;
 
     h2 {
@@ -45,6 +45,7 @@
       color: $gray-dark;
     }
   }
+
 
   // Tweak these top nav buttons
   li.tbm-item.level-1.top-menu-telephone,
@@ -81,3 +82,61 @@
     }
   }
 }
+
+
+// Adjust font sizing for drop down secondary menus on smaller devices
+@media screen and (max-width: 499px) {
+  #block-arun10-topmenu-2 {
+    .tbm-submenu {
+      border: $border-thin solid $gray-dark;
+      border-radius: 10px;
+  
+      h2 {
+        font-size: 18px;
+        line-height: 20px;
+      }
+    }
+
+    li.tbm-item.level-1.top-menu-donate .block {
+      .field--name-body {
+        font-size: 16px;
+        line-height: 20px;
+      }
+    }
+
+    li.tbm-item.level-1.top-menu-accessibility .block {
+      .accessibility--controls span {
+        font-size: 16px;
+        line-height: 20px;        
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  #block-arun10-topmenu-2 {
+    display: flex;
+    flex-grow: 1;
+    justify-content: right;
+
+    nav.tbm {
+      display: flex;
+      flex-grow: 1;
+      justify-content: right;
+      padding-left: inherit;
+    }
+  }
+}
+
+
+@media screen and (max-width: 499px) {
+  #block-arun10-topmenu-2 {
+    li.tbm-item.level-1.top-menu-telephone,
+    li.tbm-item.level-1.top-menu-email {
+      display: none;
+    }
+  }
+}
+
+

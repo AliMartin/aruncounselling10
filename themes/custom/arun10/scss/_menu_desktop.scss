@@ -17,10 +17,12 @@
 
     .tbm-link.level-1 {
         color: $white;
-        font-size: 1rem;
+        font-size: 16px;
         line-height: 1;
-        font-weight: $font-weight-bold;
+        font-family: $headings-font-family;
+        font-weight: $headings-font-weight;
         text-decoration: none;
+        padding: 15px 20px;
     }
 
     .tbm-submenu {
@@ -53,7 +55,7 @@
     background-color: $gray-dark;
   }
   .tbm-item.menu-home .tbm-submenu {
-    border: 6px solid $gray-dark;
+    border: $border-thick solid $gray-dark;
   }
 
 
@@ -64,7 +66,7 @@
     background-color: $blue;
   }
   .tbm-item.menu-individuals .tbm-submenu {
-    border: 6px solid $blue;
+    border: $border-thick solid $blue;
   }
 
   // Employers = red
@@ -74,7 +76,7 @@
     background-color: $red;
   }
   .tbm-item.menu-employers .tbm-submenu {
-    border: 6px solid $red;
+    border: $border-thick solid $red;
   }
 
   // Professionals = orange
@@ -84,7 +86,7 @@
     background-color: $orange;
   }
   .tbm-item.menu-professionals .tbm-submenu {
-    border: 6px solid $orange;
+    border: $border-thick solid $orange;
   }
 
   // About = teal
@@ -94,7 +96,7 @@
     background-color: $teal;
   }
   .tbm-item.menu-about .tbm-submenu {
-    border: 6px solid $teal;
+    border: $border-thick solid $teal;
   }
 
 
@@ -107,4 +109,23 @@
     }
   }
 
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #block-arun10-mainnavigation {
+    ul.tbm-nav {
+  
+      > li,
+      .tbm-link.level-1 {
+        border-radius: 10px 10px 0 0;
+        margin: 0 4px;
+      }
+  
+      .tbm-link.level-1 {
+        font-size: 14px;
+        padding: 10px 6px;
+      }
+    }
+  }
 }

@@ -1,0 +1,25 @@
+uuid: cecd7909-b869-4928-b7c8-fc8254b9023f
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:menu_information:3527db8e-f9a5-4f91-a5a6-db3c1b25715d'
+  module:
+    - block_content
+  theme:
+    - arun10
+id: arun10_aboutaruncounselling
+theme: arun10
+region: mege_menu
+weight: 0
+provider: null
+plugin: 'block_content:3527db8e-f9a5-4f91-a5a6-db3c1b25715d'
+settings:
+  id: 'block_content:3527db8e-f9a5-4f91-a5a6-db3c1b25715d'
+  label: 'About Arun Counselling'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,8 +1,7 @@
 header {
   padding-top: 30px;
-  margin-bottom: 45px;
   background-color: $white;
-  border-bottom: 6px solid $gray;
+  border-bottom: $border-thick solid $gray;
 }
 
 #header_upper_container {
@@ -15,7 +14,7 @@ header {
 
 #header_upper_container_left {
   display: flex;
-  flex-grow: 1;
+  flex-grow: 0;
   justify-content: flex-start;
 }
 
@@ -23,4 +22,34 @@ header {
   display: flex;
   flex-grow: 1;
   justify-content: flex-end;
+
+  .region-header-right {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: right;
+    align-items: center;
+  }
+}
+
+.navbar-brand img {
+  margin: 0;
+}
+
+
+@media screen and (max-width: 767px) {
+  header {
+    padding-top: 15px;
+  }
+  #header_upper_container {
+    margin-bottom: 15px;
+  }
+}
+
+
+@media screen and (max-width: 499px) {
+  header {
+    border-bottom: $border-thin solid $gray;
+  }
 }

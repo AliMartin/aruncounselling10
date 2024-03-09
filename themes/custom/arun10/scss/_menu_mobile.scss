@@ -17,3 +17,47 @@
 .responsive-menu-toggle-icon span.icon {
   background: $black;
 }
+
+.responsive-menu-toggle-icon span.label {
+  display: none;
+  font-size: 0;
+  top: inherit;
+  left: inherit;
+}
+
+
+.mm-menu_theme-white {
+  background-color: $white;
+  --mm-color-background: $white;
+  color: $black;
+
+  .mm-panels {
+    
+    .mm-navbar {
+      background-color: $gray-300;
+      font-family: $headings-font-family;
+      color: $black;
+      border-bottom: $border-thin solid $gray;
+    }
+  }
+
+  ul.mm-listview {
+    li.mm-listitem {
+      font-family: $headings-font-family;
+      line-height: 1;
+      color: $black;
+      --mm-color-text: $black;
+    }
+    li.mm-listitem::after {
+      display: none;
+    }
+    .mm-listitem__text {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .mm-listitem_selected > .mm-listitem__text {
+      color: $white;
+      background: $gray-dark;
+    }
+  }
+}

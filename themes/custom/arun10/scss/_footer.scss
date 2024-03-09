@@ -70,12 +70,11 @@
 
 // Footer
 footer {
-
   padding: 15px 0 45px 0;
   background-color: $white;
   font-size: medium;
   color: $gray-dark;
-  border-top: 6px solid $gray;
+  border-top: $border-thick solid $gray;
 
   .upper-footer {
     padding-top: 30px;
@@ -167,3 +166,8 @@ footer {
 }  
 
 
+@media screen and (max-width: 499px) {
+  footer {
+    border-top: $border-thin solid $gray;
+  }
+}

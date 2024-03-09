@@ -1,0 +1,15 @@
+uuid: 9cdb8d16-5a53-4c72-aca9-d62735c026dd
+langcode: en-gb
+status: true
+dependencies: {  }
+name: mega_menu_image
+label: 'Mega menu image'
+effects:
+  7ef7d565-761e-4409-bb1d-2347ebae3e83:
+    uuid: 7ef7d565-761e-4409-bb1d-2347ebae3e83
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 300
+      height: 200
+      anchor: center-center

@@ -1,0 +1,25 @@
+uuid: 023347a3-7b8e-414c-90af-9d654bf760f4
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:menu_information:ddcd0105-9cef-4967-b6b3-02664955be94'
+  module:
+    - block_content
+  theme:
+    - arun10
+id: arun10_forindividuals
+theme: arun10
+region: mege_menu
+weight: 0
+provider: null
+plugin: 'block_content:ddcd0105-9cef-4967-b6b3-02664955be94'
+settings:
+  id: 'block_content:ddcd0105-9cef-4967-b6b3-02664955be94'
+  label: 'For individuals'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

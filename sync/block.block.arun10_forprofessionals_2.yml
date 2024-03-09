@@ -1,0 +1,30 @@
+uuid: 0711f480-2a95-46a0-889e-d3f78d65233c
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:front_page:42dafccb-5974-41f5-923d-6d72626ba46a'
+  module:
+    - block_content
+    - system
+  theme:
+    - arun10
+id: arun10_forprofessionals_2
+theme: arun10
+region: content_top
+weight: -10
+provider: null
+plugin: 'block_content:42dafccb-5974-41f5-923d-6d72626ba46a'
+settings:
+  id: 'block_content:42dafccb-5974-41f5-923d-6d72626ba46a'
+  label: 'For professionals'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

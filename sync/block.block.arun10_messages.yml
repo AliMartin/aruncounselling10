@@ -10,8 +10,8 @@ _core:
   default_config_hash: nw10remIF-MEn8LIiLhDWhRt-tgJpiaS7EBXD68Xb_w
 id: arun10_messages
 theme: arun10
-region: content
-weight: -7
+region: content_header
+weight: -12
 provider: null
 plugin: system_messages_block
 settings:
