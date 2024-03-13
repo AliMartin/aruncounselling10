@@ -97,6 +97,11 @@
       }
     }
 
+    li.tbm-item.level-1.top-menu-telephone,
+    li.tbm-item.level-1.top-menu-email {
+      display: none;
+    }
+
     li.tbm-item.level-1.top-menu-donate .block {
       .field--name-body {
         font-size: 16px;
@@ -112,6 +117,28 @@
     }
   }
 }
+
+
+@media screen and (max-width: 359px) {
+  #block-arun10-topmenu-2 {
+    li.tbm-item.level-1.top-menu-donate {
+      a {
+        font-size: 0;
+        padding: 0;
+        width: 36px;
+        height: 36px;
+        justify-content: center;
+      }
+      svg {
+        font-size: 16px;
+        line-height: 16px;
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+
 
 
 @media screen and (max-width: 767px) {
@@ -130,13 +157,6 @@
 }
 
 
-@media screen and (max-width: 499px) {
-  #block-arun10-topmenu-2 {
-    li.tbm-item.level-1.top-menu-telephone,
-    li.tbm-item.level-1.top-menu-email {
-      display: none;
-    }
-  }
-}
+
 
 

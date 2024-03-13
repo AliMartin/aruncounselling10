@@ -1,8 +1,14 @@
 // Main page content
-main .region-content {
+main #content-header .region-content {
+  max-width: 850px;
+  margin: 30px auto 0 auto;
+}
+
+main #main-content .region-content {
   max-width: 850px;
   margin: 30px auto 90px auto;
 }
+
 
 #content-header {
   max-width: 850px;
@@ -92,6 +98,11 @@ main .region-content {
 
   .node__content > div {
     margin-bottom: 45px;
+  }
+
+  .submitted-date {
+    font-weight: $font-weight-bold;
+    margin-bottom: 15px;
   }
 
   .field--name-field-media-image {

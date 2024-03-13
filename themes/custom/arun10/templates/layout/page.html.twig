@@ -109,7 +109,9 @@ set footer_classes = ' ' ~
       {% endif %}
       <div class="order-1 order-lg-2 {{ content_classes }}">
         <div id="content-header">
-          {{ page.content_header }}
+          <div class="region region-content">
+            {{ page.content_header }}
+          </div>
         </div>
         <div id="top-content">
           {{ page.content_top }}

@@ -39,7 +39,7 @@
 
     img {
       border-radius: 15px;
-      border: $border-thick solid $white;
+      // border: $border-thick solid $white;
     }
 
     .field--name-body {
@@ -59,14 +59,20 @@
 }
 
 
+@media screen and (max-width: 991px) {
+  .path-frontpage {
+    #top-content .region {
+      flex-direction: column;
+    }  
+  }
+}
+
+
 @media screen and (max-width: 499px) {
   .path-frontpage {
     #block-arun10-forindividuals-2,
     #block-arun10-foremployers-2,
     #block-arun10-forprofessionals-2 {
-      img {
-        border: $border-thin solid $white;
-      }
     }
   }
 }

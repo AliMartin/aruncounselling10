@@ -2741,7 +2741,7 @@
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-family: "Varela Round", sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 1.2;
   color: var(--bs-heading-color);
 }
@@ -14501,58 +14501,6 @@ a > .ck-content code {
     border-bottom: 4px solid #BAB1AD;
   }
 }
-.ck-content #address-telephone-block {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 15px;
-  max-width: 1100px;
-  background-color: #4a4e56;
-  color: #ffffff;
-  border-radius: 20px;
-  border-radius: 200px;
-  padding: 15px;
-  margin: 0 auto 90px auto;
-  font-size: 1rem;
-}
-.ck-content #address-telephone-block img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-}
-.ck-content #address-telephone-block .outer-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-.ck-content #address-telephone-block .inner-wrapper {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.ck-content #address-telephone-block h5, .ck-content #address-telephone-block .h5 {
-  color: #ffffff;
-  margin-bottom: 5px;
-}
-.ck-content #address-telephone-block .round-button a {
-  display: inline-flex;
-  width: 150px;
-  height: 30px;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  background-color: #ffffff;
-  color: #687dac;
-  border-radius: 50px;
-  margin-right: 10px;
-}
-.ck-content #address-telephone-block .round-button a:hover, .ck-content #address-telephone-block .round-button a:focus {
-  background-color: #821f09;
-  color: #ffffff;
-}
-.ck-content #address-telephone-block .round-button svg {
-  margin-right: 5px;
-}
 .ck-content footer {
   padding: 15px 0 45px 0;
   background-color: #ffffff;
@@ -14637,9 +14585,81 @@ a > .ck-content code {
 .ck-content #sponsor-logos .sussex-community img {
   width: 140px;
 }
+.ck-content #sponsor-logos .foyle-foundation img {
+  width: 240px;
+}
 @media screen and (max-width: 499px) {
   .ck-content footer {
     border-top: 4px solid #BAB1AD;
+  }
+}
+.ck-content #address-telephone-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  max-width: 1100px;
+  background-color: #4a4e56;
+  color: #ffffff;
+  border-radius: 200px;
+  padding: 15px;
+  margin: 0 auto 90px auto;
+  font-size: 1rem;
+}
+.ck-content #address-telephone-block img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.ck-content #address-telephone-block .outer-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-right: 30px;
+}
+.ck-content #address-telephone-block .inner-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.ck-content #address-telephone-block h5, .ck-content #address-telephone-block .h5 {
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .ck-content #address-telephone-block .outer-wrapper {
+    gap: 10px;
+  }
+  .ck-content #address-telephone-block h5, .ck-content #address-telephone-block .h5 {
+    margin-bottom: 0px;
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .ck-content #address-telephone-block {
+    flex-direction: column;
+    max-width: 360px;
+    padding: 30px;
+    border-radius: 20px;
+  }
+  .ck-content #address-telephone-block img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+  .ck-content #address-telephone-block .outer-wrapper {
+    padding-right: 0;
+  }
+  .ck-content #address-telephone-block .inner-wrapper {
+    flex-direction: column;
+    text-align: center;
+  }
+  .ck-content #address-telephone-block .inner-wrapper span.comma {
+    display: none;
+  }
+  .ck-content #address-telephone-block h5, .ck-content #address-telephone-block .h5 {
+    text-align: center;
   }
 }
 .ck-content #block-arun10-mainnavigation nav.tbm {
@@ -14659,7 +14679,7 @@ a > .ck-content code {
   font-size: 16px;
   line-height: 1;
   font-family: "Varela Round", sans-serif;
-  font-weight: 600;
+  font-weight: 400;
   text-decoration: none;
   padding: 15px 20px;
 }
@@ -14809,6 +14829,10 @@ a > .ck-content code {
     font-size: 18px;
     line-height: 20px;
   }
+  .ck-content #block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-telephone,
+.ck-content #block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-email {
+    display: none;
+  }
   .ck-content #block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-donate .block .field--name-body {
     font-size: 16px;
     line-height: 20px;
@@ -14816,6 +14840,20 @@ a > .ck-content code {
   .ck-content #block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-accessibility .block .accessibility--controls span {
     font-size: 16px;
     line-height: 20px;
+  }
+}
+@media screen and (max-width: 359px) {
+  .ck-content #block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-donate a {
+    font-size: 0;
+    padding: 0;
+    width: 36px;
+    height: 36px;
+    justify-content: center;
+  }
+  .ck-content #block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-donate svg {
+    font-size: 16px;
+    line-height: 16px;
+    margin-right: 0;
   }
 }
 @media screen and (max-width: 767px) {
@@ -14829,12 +14867,6 @@ a > .ck-content code {
     flex-grow: 1;
     justify-content: right;
     padding-left: inherit;
-  }
-}
-@media screen and (max-width: 499px) {
-  .ck-content #block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-telephone,
-.ck-content #block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-email {
-    display: none;
   }
 }
 @media screen and (min-width: 768px) {
@@ -14887,7 +14919,11 @@ a > .ck-content code {
   color: #ffffff;
   background: #4a4e56;
 }
-.ck-content main .region-content {
+.ck-content main #content-header .region-content {
+  max-width: 850px;
+  margin: 30px auto 0 auto;
+}
+.ck-content main #main-content .region-content {
   max-width: 850px;
   margin: 30px auto 90px auto;
 }
@@ -14961,6 +14997,10 @@ a > .ck-content code {
 }
 .ck-content #block-arun10-content .node__content > div {
   margin-bottom: 45px;
+}
+.ck-content #block-arun10-content .submitted-date {
+  font-weight: 700;
+  margin-bottom: 15px;
 }
 .ck-content #block-arun10-content .field--name-field-media-image {
   margin-bottom: 30px;
@@ -15232,7 +15272,6 @@ a > .ck-content code {
 .ck-content .path-frontpage #block-arun10-foremployers-2 img,
 .ck-content .path-frontpage #block-arun10-forprofessionals-2 img {
   border-radius: 15px;
-  border: 6px solid #ffffff;
 }
 .ck-content .path-frontpage #block-arun10-forindividuals-2 .field--name-body,
 .ck-content .path-frontpage #block-arun10-foremployers-2 .field--name-body,
@@ -15249,11 +15288,9 @@ a > .ck-content code {
 .ck-content .path-frontpage #block-arun10-forprofessionals-2 {
   background-color: #c16712;
 }
-@media screen and (max-width: 499px) {
-  .ck-content .path-frontpage #block-arun10-forindividuals-2 img,
-.ck-content .path-frontpage #block-arun10-foremployers-2 img,
-.ck-content .path-frontpage #block-arun10-forprofessionals-2 img {
-    border: 4px solid #ffffff;
+@media screen and (max-width: 991px) {
+  .ck-content .path-frontpage #top-content .region {
+    flex-direction: column;
   }
 }
 
