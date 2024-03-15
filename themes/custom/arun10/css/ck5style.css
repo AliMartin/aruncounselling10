@@ -15245,37 +15245,33 @@ a > .ck-content code {
   flex-direction: row;
   flex-wrap: nowrap;
   gap: 10px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.ck-content .path-frontpage #block-arun10-forindividuals-2,
-.ck-content .path-frontpage #block-arun10-foremployers-2,
-.ck-content .path-frontpage #block-arun10-forprofessionals-2 {
+.ck-content .path-frontpage #top-content .region > div {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
   color: #ffffff;
   text-align: center;
-  padding: 15px;
-  border-radius: 20px;
+  padding: 30px;
+  border-radius: 300px 300px 90px 90px;
   margin-bottom: 30px;
 }
-.ck-content .path-frontpage #block-arun10-forindividuals-2 h2, .ck-content .path-frontpage #block-arun10-forindividuals-2 .h2,
-.ck-content .path-frontpage #block-arun10-foremployers-2 h2,
-.ck-content .path-frontpage #block-arun10-foremployers-2 .h2,
-.ck-content .path-frontpage #block-arun10-forprofessionals-2 h2,
-.ck-content .path-frontpage #block-arun10-forprofessionals-2 .h2 {
+.ck-content .path-frontpage #top-content .region > div h2, .ck-content .path-frontpage #top-content .region > div .h2 {
+  order: 2;
   color: #ffffff;
-  margin-bottom: 30px;
+  margin-bottom: 0;
 }
-.ck-content .path-frontpage #block-arun10-forindividuals-2 .field--name-field-media-image,
-.ck-content .path-frontpage #block-arun10-foremployers-2 .field--name-field-media-image,
-.ck-content .path-frontpage #block-arun10-forprofessionals-2 .field--name-field-media-image {
-  margin-bottom: 30px;
+.ck-content .path-frontpage #top-content .region > div .field--name-field-image {
+  order: 1;
 }
-.ck-content .path-frontpage #block-arun10-forindividuals-2 img,
-.ck-content .path-frontpage #block-arun10-foremployers-2 img,
-.ck-content .path-frontpage #block-arun10-forprofessionals-2 img {
-  border-radius: 15px;
+.ck-content .path-frontpage #top-content .region > div img {
+  border-radius: 50%;
 }
-.ck-content .path-frontpage #block-arun10-forindividuals-2 .field--name-body,
-.ck-content .path-frontpage #block-arun10-foremployers-2 .field--name-body,
-.ck-content .path-frontpage #block-arun10-forprofessionals-2 .field--name-body {
+.ck-content .path-frontpage #top-content .region > div .field--name-body {
+  order: 3;
   max-width: 850px;
   margin: 0 auto 0 auto;
 }
@@ -15288,9 +15284,23 @@ a > .ck-content code {
 .ck-content .path-frontpage #block-arun10-forprofessionals-2 {
   background-color: #c16712;
 }
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .ck-content .path-frontpage #top-content .region > div h2, .ck-content .path-frontpage #top-content .region > div .h2 {
+    font-size: 1.8rem;
+  }
+}
 @media screen and (max-width: 991px) {
   .ck-content .path-frontpage #top-content .region {
     flex-direction: column;
+  }
+  .ck-content .path-frontpage #top-content .region > div {
+    border-radius: 20px;
+  }
+}
+@media screen and (max-width: 499px) {
+  .ck-content .path-frontpage #top-content .region > div {
+    font-size: 1rem;
+    padding: 20px;
   }
 }
 

@@ -16,53 +16,67 @@
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 10px;
-  }
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
 
-
-  #block-arun10-forindividuals-2,
-  #block-arun10-foremployers-2,
-  #block-arun10-forprofessionals-2 {
-    color: $white;
-    text-align: center;
-    padding: 15px;
-    border-radius: 20px;
-    margin-bottom: 30px;
-
-    h2 {
+    > div {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
       color: $white;
+      text-align: center;
+      padding: 30px;
+      border-radius: 300px 300px 90px 90px;
       margin-bottom: 30px;
+  
+      h2 {
+        order: 2;
+        color: $white;
+        margin-bottom: 0;
+      }
+  
+      .field--name-field-image {
+        order: 1;
+      }
+  
+      img {
+        border-radius: 50%;
+      }
+  
+      .field--name-body {
+        order: 3;
+        max-width: 850px;
+        margin: 0 auto 0 auto;
+      }
     }
+  }
 
-    .field--name-field-media-image {
-      margin-bottom: 30px;
-    }
-
-    img {
-      border-radius: 15px;
-      // border: $border-thick solid $white;
-    }
-
-    .field--name-body {
-      max-width: 850px;
-      margin: 0 auto 0 auto;
-    }
-  }
-  #block-arun10-forindividuals-2 {
-    background-color: $blue;
-  }
-  #block-arun10-foremployers-2 {
-    background-color: $red;
-  }
-  #block-arun10-forprofessionals-2 {
-    background-color: $orange;
-  }
+  #block-arun10-forindividuals-2    {background-color: $blue;   }
+  #block-arun10-foremployers-2      {background-color: $red;    }
+  #block-arun10-forprofessionals-2  {background-color: $orange; }
 }
 
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .path-frontpage {
+    #top-content .region {
+      > div {
+        h2 {
+          font-size: 1.8rem;
+        }
+      }
+    }  
+  }
+}
 
 @media screen and (max-width: 991px) {
   .path-frontpage {
     #top-content .region {
       flex-direction: column;
+
+      > div {
+        border-radius: $border-radius;
+      }
     }  
   }
 }
@@ -70,9 +84,11 @@
 
 @media screen and (max-width: 499px) {
   .path-frontpage {
-    #block-arun10-forindividuals-2,
-    #block-arun10-foremployers-2,
-    #block-arun10-forprofessionals-2 {
-    }
+    #top-content .region {
+      > div {
+        font-size: 1rem;
+        padding: 20px;
+      }
+    }  
   }
 }
