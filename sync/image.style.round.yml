@@ -1,0 +1,15 @@
+uuid: f2f9cb1a-8f6e-4205-a882-56bf27db7398
+langcode: en-gb
+status: true
+dependencies: {  }
+name: round
+label: Round
+effects:
+  7355581f-0314-4663-a3e7-0c122a49bf2a:
+    uuid: 7355581f-0314-4663-a3e7-0c122a49bf2a
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 400
+      height: 400
+      anchor: center-center

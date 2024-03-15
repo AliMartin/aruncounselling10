@@ -7,7 +7,9 @@ dependencies:
     - field.field.block_content.front_page.body
     - field.field.block_content.front_page.field_image
     - field.field.block_content.front_page.field_menu_section
+    - image.style.round
   module:
+    - media
     - text
 id: block_content.front_page.default
 targetEntityType: block_content
@@ -22,11 +24,13 @@ content:
     weight: 1
     region: content
   field_image:
-    type: entity_reference_entity_view
+    type: media_thumbnail
     label: hidden
     settings:
-      view_mode: full
-      link: false
+      image_link: ''
+      image_style: round
+      image_loading:
+        attribute: lazy
     third_party_settings: {  }
     weight: 0
     region: content
