@@ -14919,6 +14919,30 @@ a > .ck-content code {
   color: #ffffff;
   background: #4a4e56;
 }
+.ck-content ul.nav-tabs, .ck-content .media-library-view--widget ul.view-header {
+  border-bottom: 1px solid #ffffff;
+}
+.ck-content ul.nav-tabs li a.nav-link:hover, .ck-content ul.nav-tabs li .media-library-view--widget .view-header a:hover, .ck-content .media-library-view--widget .view-header ul.nav-tabs li a:hover, .ck-content .media-library-view--widget ul.view-header li a:hover {
+  border-bottom: inherit;
+  background-color: #cbc5c2;
+  color: #040006;
+}
+.ck-content .btn-primary {
+  padding: 5px 15px;
+  border-radius: 50px;
+}
+.ck-content .btn-secondary {
+  background-color: #8c8582;
+  border: 1px solid #8c8582;
+  color: #ffffff;
+  padding: 5px 15px;
+  border-radius: 50px;
+}
+.ck-content .btn-secondary:hover, .ck-content .btn-secondary:focus {
+  background-color: #5d5957;
+  border: 1px solid #5d5957;
+  color: #ffffff;
+}
 .ck-content main #content-header .region-content {
   max-width: 850px;
   margin: 30px auto 0 auto;
@@ -14994,6 +15018,9 @@ a > .ck-content code {
 }
 .ck-content #section-banner.section-about .icon {
   color: #636f59;
+}
+.ck-content .path-announcements h1, .ck-content .path-announcements .h1 {
+  text-align: center;
 }
 .ck-content #block-arun10-content .node__content > div {
   margin-bottom: 45px;
@@ -15230,6 +15257,28 @@ a > .ck-content code {
   -webkit-box-shadow: 0 0 5px #666666;
   box-shadow: 0 0 5px #666666;
 }
+.ck-content .view-announcements,
+.ck-content #block-arun10-views-block-announcements-block-1 {
+  text-align: center;
+}
+.ck-content .view-announcements h2, .ck-content .view-announcements .h2,
+.ck-content #block-arun10-views-block-announcements-block-1 h2,
+.ck-content #block-arun10-views-block-announcements-block-1 .h2 {
+  margin-bottom: 15px;
+}
+.ck-content .view-announcements .views-row,
+.ck-content #block-arun10-views-block-announcements-block-1 .views-row {
+  margin-bottom: 45px;
+}
+.ck-content .view-announcements .views-field-created,
+.ck-content #block-arun10-views-block-announcements-block-1 .views-field-created {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.ck-content .view-announcements .views-field-body,
+.ck-content #block-arun10-views-block-announcements-block-1 .views-field-body {
+  margin-bottom: 5px;
+}
 .ck-content .path-frontpage ul.nav-tabs, .ck-content .path-frontpage .media-library-view--widget ul.view-header, .ck-content .media-library-view--widget .path-frontpage ul.view-header {
   justify-content: center !important;
 }
@@ -15283,6 +15332,11 @@ a > .ck-content code {
 }
 .ck-content .path-frontpage #block-arun10-forprofessionals-2 {
   background-color: #c16712;
+}
+@media screen and (min-width: 500px) and (max-width: 991px) {
+  .ck-content .path-frontpage #top-content .region > div img {
+    max-width: 300px;
+  }
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .ck-content .path-frontpage #top-content .region > div h2, .ck-content .path-frontpage #top-content .region > div .h2 {

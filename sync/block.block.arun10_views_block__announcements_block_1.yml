@@ -1,0 +1,29 @@
+uuid: bd03cb8a-5c6d-4fc6-bbf2-3cf63f42a659
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - views.view.announcements
+  module:
+    - system
+    - views
+  theme:
+    - arun10
+id: arun10_views_block__announcements_block_1
+theme: arun10
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:announcements-block_1'
+settings:
+  id: 'views_block:announcements-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

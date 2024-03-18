@@ -3,14 +3,24 @@ langcode: en-gb
 status: true
 dependencies:
   config:
+    - block_content.type.basic
+    - block_content.type.front_page
+    - block_content.type.menu_information
+    - media.type.audio
+    - media.type.document
+    - media.type.image
+    - media.type.remote_video
+    - media.type.video
+    - node.type.announcement
     - node.type.article
     - node.type.page
     - taxonomy.vocabulary.tags
   module:
-    - comment
+    - block_content
     - contextual
     - file
     - help
+    - media
     - node
     - path
     - system
@@ -25,27 +35,111 @@ weight: 2
 is_admin: false
 permissions:
   - 'access administration pages'
+  - 'access block library'
+  - 'access content'
   - 'access content overview'
   - 'access contextual links'
   - 'access files overview'
   - 'access help pages'
+  - 'access media overview'
   - 'access toolbar'
   - 'access tour'
   - 'administer url aliases'
+  - 'create announcement content'
   - 'create article content'
+  - 'create audio media'
+  - 'create basic block content'
+  - 'create document media'
+  - 'create front_page block content'
+  - 'create image media'
+  - 'create media'
+  - 'create menu_information block content'
   - 'create page content'
+  - 'create remote_video media'
   - 'create terms in tags'
   - 'create url aliases'
+  - 'create video media'
+  - 'delete announcement revisions'
+  - 'delete any announcement content'
+  - 'delete any article content'
+  - 'delete any audio media'
+  - 'delete any audio media revisions'
+  - 'delete any basic block content'
+  - 'delete any basic block content revisions'
+  - 'delete any document media'
+  - 'delete any document media revisions'
+  - 'delete any front_page block content'
+  - 'delete any front_page block content revisions'
+  - 'delete any image media'
+  - 'delete any image media revisions'
+  - 'delete any media'
+  - 'delete any menu_information block content'
+  - 'delete any menu_information block content revisions'
+  - 'delete any page content'
+  - 'delete any remote_video media'
+  - 'delete any remote_video media revisions'
+  - 'delete any video media'
+  - 'delete any video media revisions'
   - 'delete article revisions'
+  - 'delete media'
+  - 'delete own announcement content'
   - 'delete own article content'
+  - 'delete own audio media'
+  - 'delete own document media'
   - 'delete own files'
+  - 'delete own image media'
   - 'delete own page content'
+  - 'delete own remote_video media'
+  - 'delete own video media'
   - 'delete page revisions'
+  - 'edit any announcement content'
+  - 'edit any article content'
+  - 'edit any audio media'
+  - 'edit any basic block content'
+  - 'edit any document media'
+  - 'edit any front_page block content'
+  - 'edit any image media'
+  - 'edit any menu_information block content'
+  - 'edit any page content'
+  - 'edit any remote_video media'
+  - 'edit any video media'
+  - 'edit own announcement content'
   - 'edit own article content'
-  - 'edit own comments'
+  - 'edit own audio media'
+  - 'edit own document media'
+  - 'edit own image media'
   - 'edit own page content'
+  - 'edit own remote_video media'
+  - 'edit own video media'
   - 'edit terms in tags'
   - 'revert all revisions'
+  - 'revert announcement revisions'
+  - 'revert any audio media revisions'
+  - 'revert any basic block content revisions'
+  - 'revert any document media revisions'
+  - 'revert any front_page block content revisions'
+  - 'revert any image media revisions'
+  - 'revert any menu_information block content revisions'
+  - 'revert any remote_video media revisions'
+  - 'revert any video media revisions'
+  - 'revert article revisions'
+  - 'revert page revisions'
+  - 'update any media'
+  - 'update media'
+  - 'view all media revisions'
   - 'view all revisions'
+  - 'view announcement revisions'
+  - 'view any audio media revisions'
+  - 'view any basic block content history'
+  - 'view any document media revisions'
+  - 'view any front_page block content history'
+  - 'view any image media revisions'
+  - 'view any menu_information block content history'
+  - 'view any remote_video media revisions'
+  - 'view any video media revisions'
+  - 'view article revisions'
+  - 'view media'
   - 'view own unpublished content'
+  - 'view own unpublished media'
+  - 'view page revisions'
   - 'view the administration theme'

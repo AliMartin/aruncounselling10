@@ -57,6 +57,18 @@
   #block-arun10-forprofessionals-2  {background-color: $orange; }
 }
 
+@media screen and (min-width: 500px) and (max-width: 991px) {
+  .path-frontpage {
+    #top-content .region {
+      > div {
+        img {
+          max-width: 300px;
+        }
+      }
+    }
+  }
+}
+
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .path-frontpage {
     #top-content .region {

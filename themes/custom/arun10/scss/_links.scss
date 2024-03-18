@@ -1,0 +1,20 @@
+.btn-primary {
+  padding: 5px 15px;
+  border-radius: 50px;
+}
+
+
+.btn-secondary {
+  background-color: $gray-600;
+  border: 1px solid $gray-600;
+  color: $white;
+  padding: 5px 15px;
+  border-radius: 50px;
+
+  &:hover,
+  &:focus {
+    background-color: $gray-700;
+    border: 1px solid $gray-700;
+    color: $white;
+  }
+}

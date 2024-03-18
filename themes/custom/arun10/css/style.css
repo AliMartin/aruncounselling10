@@ -16497,6 +16497,33 @@ footer a:hover, footer a:active {
   background: #4a4e56;
 }
 
+ul.nav-tabs, .media-library-view--widget ul.view-header {
+  border-bottom: 1px solid #ffffff;
+}
+ul.nav-tabs li a.nav-link:hover, ul.nav-tabs li .media-library-view--widget .view-header a:hover, .media-library-view--widget .view-header ul.nav-tabs li a:hover, .media-library-view--widget ul.view-header li a:hover {
+  border-bottom: inherit;
+  background-color: #cbc5c2;
+  color: #040006;
+}
+
+.btn-primary {
+  padding: 5px 15px;
+  border-radius: 50px;
+}
+
+.btn-secondary {
+  background-color: #8c8582;
+  border: 1px solid #8c8582;
+  color: #ffffff;
+  padding: 5px 15px;
+  border-radius: 50px;
+}
+.btn-secondary:hover, .btn-secondary:focus {
+  background-color: #5d5957;
+  border: 1px solid #5d5957;
+  color: #ffffff;
+}
+
 main #content-header .region-content {
   max-width: 850px;
   margin: 30px auto 0 auto;
@@ -16581,6 +16608,10 @@ main #main-content .region-content {
 }
 #section-banner.section-about .icon {
   color: #636f59;
+}
+
+.path-announcements h1, .path-announcements .h1 {
+  text-align: center;
 }
 
 #block-arun10-content .node__content > div {
@@ -16868,6 +16899,29 @@ a.ui-button:active,
   box-shadow: 0 0 5px #666666;
 }
 
+.view-announcements,
+#block-arun10-views-block-announcements-block-1 {
+  text-align: center;
+}
+.view-announcements h2, .view-announcements .h2,
+#block-arun10-views-block-announcements-block-1 h2,
+#block-arun10-views-block-announcements-block-1 .h2 {
+  margin-bottom: 15px;
+}
+.view-announcements .views-row,
+#block-arun10-views-block-announcements-block-1 .views-row {
+  margin-bottom: 45px;
+}
+.view-announcements .views-field-created,
+#block-arun10-views-block-announcements-block-1 .views-field-created {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.view-announcements .views-field-body,
+#block-arun10-views-block-announcements-block-1 .views-field-body {
+  margin-bottom: 5px;
+}
+
 .path-frontpage ul.nav-tabs, .path-frontpage .media-library-view--widget ul.view-header, .media-library-view--widget .path-frontpage ul.view-header {
   justify-content: center !important;
 }
@@ -16923,6 +16977,11 @@ a.ui-button:active,
   background-color: #c16712;
 }
 
+@media screen and (min-width: 500px) and (max-width: 991px) {
+  .path-frontpage #top-content .region > div img {
+    max-width: 300px;
+  }
+}
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   .path-frontpage #top-content .region > div h2, .path-frontpage #top-content .region > div .h2 {
     font-size: 1.8rem;

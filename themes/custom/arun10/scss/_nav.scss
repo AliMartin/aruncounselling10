@@ -1,0 +1,9 @@
+ul.nav-tabs {
+  border-bottom: 1px solid $white;
+
+  li a.nav-link:hover {
+    border-bottom: inherit;
+    background-color: $gray-400;
+    color: $black;
+  }
+}
