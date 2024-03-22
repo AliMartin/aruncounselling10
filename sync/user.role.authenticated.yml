@@ -6,6 +6,7 @@ dependencies:
     - filter.format.basic_html
   module:
     - contact
+    - eu_cookie_compliance
     - file
     - filter
     - fontawesome
@@ -25,6 +26,7 @@ permissions:
   - 'access shortcuts'
   - 'access site-wide contact form'
   - 'delete own files'
+  - 'display eu cookie compliance popup'
   - 'search content'
   - 'use text format basic_html'
   - 'view media'

@@ -1,0 +1,9 @@
+uuid: bbe0c81f-1ab2-4887-87a8-0e7eb2964967
+langcode: en-gb
+status: true
+dependencies: {  }
+id: preferences
+label: Preferences
+description: 'Enables the website to remember information that changes the way the website behaves or looks.'
+checkbox_default_state: unchecked
+weight: -8

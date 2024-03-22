@@ -15357,5 +15357,59 @@ a > .ck-content code {
     padding: 20px;
   }
 }
+.ck-content #sliding-popup {
+  width: 100%;
+  background-color: #4a4e56;
+  color: #ffffff;
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+}
+.ck-content #sliding-popup #popup-text {
+  margin-bottom: 1rem;
+}
+.ck-content #sliding-popup #popup-text h2, .ck-content #sliding-popup #popup-text .h2 {
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+.ck-content #sliding-popup #popup-text p {
+  margin-bottom: 0.5rem;
+}
+.ck-content #sliding-popup #popup-text button {
+  border: inherit;
+  border-bottom: 1px dotted #ffffff;
+  background-color: inherit;
+  color: #ffffff;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  border-radius: inherit;
+  height: inherit;
+}
+.ck-content #sliding-popup #popup-text button:hover {
+  color: #ffbb54;
+  padding: 0;
+  text-decoration: none;
+  background-color: inherit;
+  border: inherit;
+  border-bottom: 1px dotted #ffbb54;
+}
+.ck-content #sliding-popup #popup-buttons {
+  margin-bottom: 1rem;
+}
+.ck-content #popup-buttons button {
+  background-color: #ffbb54;
+  border: 1px solid #ffbb54;
+  color: #4a4e56 !important;
+  font-size: medium;
+  font-weight: 700;
+  padding: 5px 15px;
+  border-radius: 50px;
+}
+.ck-content #popup-buttons button:hover, .ck-content #popup-buttons button:focus {
+  background-color: #c16712;
+  border: 1px solid #c16712;
+  color: #ffffff !important;
+}
 
 /*# sourceMappingURL=ck5style.css.map */

@@ -1,0 +1,9 @@
+uuid: b77c395c-3f71-4592-8dd5-674bd09a862f
+langcode: en-gb
+status: true
+dependencies: {  }
+id: necessary
+label: Necessary
+description: 'Helps make the website usable by enabling basic functions like page navigation. The website cannot function properly without these cookies.'
+checkbox_default_state: required
+weight: -9

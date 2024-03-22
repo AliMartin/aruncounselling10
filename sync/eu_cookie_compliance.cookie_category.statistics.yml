@@ -1,0 +1,9 @@
+uuid: 4411d070-197e-4c57-81e9-8753ec14e4b1
+langcode: en-gb
+status: true
+dependencies: {  }
+id: statistics
+label: Statistics
+description: 'Helps us to understand how you interact with Cycling UK by collecting information anonymously.'
+checkbox_default_state: unchecked
+weight: -7

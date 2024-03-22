@@ -17001,5 +17001,60 @@ a.ui-button:active,
     padding: 20px;
   }
 }
+#sliding-popup {
+  width: 100%;
+  background-color: #4a4e56;
+  color: #ffffff;
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+}
+#sliding-popup #popup-text {
+  margin-bottom: 1rem;
+}
+#sliding-popup #popup-text h2, #sliding-popup #popup-text .h2 {
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+#sliding-popup #popup-text p {
+  margin-bottom: 0.5rem;
+}
+#sliding-popup #popup-text button {
+  border: inherit;
+  border-bottom: 1px dotted #ffffff;
+  background-color: inherit;
+  color: #ffffff;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  border-radius: inherit;
+  height: inherit;
+}
+#sliding-popup #popup-text button:hover {
+  color: #ffbb54;
+  padding: 0;
+  text-decoration: none;
+  background-color: inherit;
+  border: inherit;
+  border-bottom: 1px dotted #ffbb54;
+}
+#sliding-popup #popup-buttons {
+  margin-bottom: 1rem;
+}
+
+#popup-buttons button {
+  background-color: #ffbb54;
+  border: 1px solid #ffbb54;
+  color: #4a4e56 !important;
+  font-size: medium;
+  font-weight: 700;
+  padding: 5px 15px;
+  border-radius: 50px;
+}
+#popup-buttons button:hover, #popup-buttons button:focus {
+  background-color: #c16712;
+  border: 1px solid #c16712;
+  color: #ffffff !important;
+}
 
 /*# sourceMappingURL=style.css.map */

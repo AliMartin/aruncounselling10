@@ -18,6 +18,7 @@ dependencies:
   module:
     - block_content
     - contextual
+    - eu_cookie_compliance
     - file
     - help
     - media
@@ -92,6 +93,7 @@ permissions:
   - 'delete own remote_video media'
   - 'delete own video media'
   - 'delete page revisions'
+  - 'display eu cookie compliance popup'
   - 'edit any announcement content'
   - 'edit any article content'
   - 'edit any audio media'

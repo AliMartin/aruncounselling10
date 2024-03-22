@@ -1,0 +1,60 @@
+#sliding-popup {
+  width: 100%;
+  background-color: $gray-dark;
+  color: $white;
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+
+  #popup-text {
+    margin-bottom: 1rem;
+    h2 {
+      font-size: 1.6rem;
+      color: $white;
+    }
+    p {
+      margin-bottom: 0.5rem;
+    }
+    button {
+      border: inherit;
+      border-bottom: 1px dotted $white;
+      background-color: inherit;
+      color: $white;
+      font-size: inherit;
+      line-height: inherit;
+      margin: 0;
+      padding: 0;
+      border-radius: inherit;
+      height: inherit;
+
+      &:hover {
+        color: $primary;
+        padding: 0;
+        text-decoration: none;
+        background-color: inherit;
+        border: inherit;
+        border-bottom: 1px dotted $primary;
+      }
+    }
+  }
+
+  #popup-buttons {
+    margin-bottom: 1rem;
+  }
+}
+
+#popup-buttons button {
+  background-color: $yellow;
+  border: 1px solid $yellow;
+  color: $gray-dark !important;
+  font-size: medium;
+  font-weight: $font-weight-bold;
+  padding: 5px 15px;
+  border-radius: 50px;
+
+  &:hover,
+  &:focus {
+    background-color: $orange;
+    border: 1px solid $orange;
+    color: $white !important;
+  }
+}
