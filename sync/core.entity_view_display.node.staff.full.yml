@@ -23,15 +23,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 4
-    region: content
-  field_category:
-    type: entity_reference_label
-    label: hidden
-    settings:
-      link: false
-    third_party_settings: {  }
-    weight: 2
+    weight: 3
     region: content
   field_position:
     type: string
@@ -39,7 +31,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 3
+    weight: 2
     region: content
   field_staff_image:
     type: image
@@ -55,7 +47,7 @@ content:
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 5
+    weight: 4
     region: content
   title:
     type: string
@@ -63,9 +55,10 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 6
+    weight: 5
     region: content
 hidden:
   created: true
+  field_category: true
   langcode: true
   uid: true

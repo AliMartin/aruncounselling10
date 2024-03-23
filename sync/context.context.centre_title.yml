@@ -1,0 +1,25 @@
+uuid: 3383e209-0016-42f2-86ce-4dd7b2bdadfc
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - system
+label: 'Centre title'
+name: centre_title
+group: null
+description: 'Centres the H1 title on pages like views'
+requireAllConditions: false
+disabled: false
+conditions:
+  request_path:
+    id: request_path
+    negate: false
+    uuid: a7879e23-953b-41db-b504-1614665cf037
+    context_mapping: {  }
+    pages: "/counsellors\r\n/staff\r\n/trustees\r\n/supervisors"
+reactions:
+  body_class:
+    id: body_class
+    body_class: centre-title
+    saved: false
+weight: 0

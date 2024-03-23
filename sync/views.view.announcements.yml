@@ -404,6 +404,7 @@ display:
       menu:
         type: normal
         title: Announcements
+        weight: -41
         menu_name: main
         parent: 'menu_link_content:fd201e13-8eb3-4cb1-8b7a-455315724941'
     cache_metadata:

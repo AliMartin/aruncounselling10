@@ -14948,6 +14948,9 @@ a > .ck-content code {
 .ck-content .mm-wrapper_background body {
   background-color: #ddd8d6;
 }
+.ck-content .centre-title #block-arun10-page-title h1, .ck-content .centre-title #block-arun10-page-title .h1 {
+  text-align: center;
+}
 .ck-content .navbar-brand a.site-title {
   font-weight: 700;
   color: #4a4e56;
@@ -15067,6 +15070,46 @@ a > .ck-content code {
 }
 .ck-content .file--image {
   background-image: url(../images/icons/image-x-generic.png);
+}
+.ck-content .page-node-type-staff main > .container {
+  text-align: center;
+}
+.ck-content .page-node-type-staff main > .container #block-arun10-content .node__content > div {
+  margin-bottom: 1rem;
+}
+.ck-content .page-node-type-staff main > .container .field--name-field-staff-image img {
+  border-radius: 50%;
+  padding: 6px;
+  border: 6px solid #636f59;
+}
+.ck-content .page-node-type-staff main > .container .field--name-field-position {
+  font-weight: 700;
+  font-size: larger;
+}
+.ck-content .view-staff {
+  text-align: center;
+}
+.ck-content .view-staff .views-row {
+  margin-bottom: 60px;
+}
+.ck-content .view-staff .views-field-field-staff-image {
+  margin-bottom: 18px;
+}
+.ck-content .view-staff .views-field-field-staff-image img {
+  border-radius: 50%;
+  padding: 6px;
+  border: 6px solid #636f59;
+}
+.ck-content .view-staff .views-field-title {
+  margin-bottom: 5px;
+}
+.ck-content .view-staff .views-field-title h2, .ck-content .view-staff .views-field-title .h2 {
+  margin-bottom: 0;
+}
+.ck-content .view-staff .views-field-field-position {
+  font-weight: 700;
+  font-size: larger;
+  margin-bottom: 5px;
 }
 .ck-content .ui-widget {
   font-family: inherit;

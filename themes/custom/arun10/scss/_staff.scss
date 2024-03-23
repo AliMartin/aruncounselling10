@@ -1,0 +1,52 @@
+.page-node-type-staff {
+  main > .container {
+    text-align: center;
+
+    #block-arun10-content .node__content > div {
+      margin-bottom: 1rem;
+    }
+
+    .field--name-field-staff-image img {
+      border-radius: 50%;
+      padding: $border-thick;
+      border: $border-thick solid $teal;
+    }
+
+    .field--name-field-position {
+      font-weight: $font-weight-bold;
+      font-size: larger;
+    }
+  }
+}
+
+
+.view-staff {
+  text-align: center;
+
+  .views-row {
+    margin-bottom: 60px;
+  }
+
+  .views-field-field-staff-image {
+    margin-bottom: 18px;
+  }
+
+  .views-field-field-staff-image img {
+    border-radius: 50%;
+    padding: $border-thick;
+    border: $border-thick solid $teal;
+  }
+
+  .views-field-title {
+    margin-bottom: 5px;
+    h2 {
+      margin-bottom: 0;
+    }
+  }
+
+  .views-field-field-position {
+    font-weight: $font-weight-bold;
+    font-size: larger;
+    margin-bottom: 5px;
+  }
+}
