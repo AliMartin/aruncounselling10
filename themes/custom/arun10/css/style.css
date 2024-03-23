@@ -16677,6 +16677,9 @@ main #main-content .region-content {
   background-image: url(../images/icons/image-x-generic.png);
 }
 
+.page-node-type-staff ul.nav-tabs, .page-node-type-staff .media-library-view--widget ul.view-header, .media-library-view--widget .page-node-type-staff ul.view-header {
+  justify-content: center;
+}
 .page-node-type-staff main > .container {
   text-align: center;
 }

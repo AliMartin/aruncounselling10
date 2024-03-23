@@ -15071,6 +15071,9 @@ a > .ck-content code {
 .ck-content .file--image {
   background-image: url(../images/icons/image-x-generic.png);
 }
+.ck-content .page-node-type-staff ul.nav-tabs, .ck-content .page-node-type-staff .media-library-view--widget ul.view-header, .ck-content .media-library-view--widget .page-node-type-staff ul.view-header {
+  justify-content: center;
+}
 .ck-content .page-node-type-staff main > .container {
   text-align: center;
 }

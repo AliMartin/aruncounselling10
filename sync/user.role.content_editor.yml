@@ -6,6 +6,7 @@ dependencies:
     - block_content.type.basic
     - block_content.type.front_page
     - block_content.type.menu_information
+    - filter.format.full_html
     - media.type.audio
     - media.type.document
     - media.type.image
@@ -14,18 +15,19 @@ dependencies:
     - node.type.announcement
     - node.type.article
     - node.type.page
-    - taxonomy.vocabulary.tags
+    - node.type.staff
   module:
     - block_content
     - contextual
+    - draggableviews
     - eu_cookie_compliance
     - file
+    - filter
     - help
     - media
     - node
     - path
     - system
-    - taxonomy
     - toolbar
     - tour
 _core:
@@ -40,6 +42,7 @@ permissions:
   - 'access content'
   - 'access content overview'
   - 'access contextual links'
+  - 'access draggableviews'
   - 'access files overview'
   - 'access help pages'
   - 'access media overview'
@@ -57,7 +60,7 @@ permissions:
   - 'create menu_information block content'
   - 'create page content'
   - 'create remote_video media'
-  - 'create terms in tags'
+  - 'create staff content'
   - 'create url aliases'
   - 'create video media'
   - 'delete announcement revisions'
@@ -79,6 +82,7 @@ permissions:
   - 'delete any page content'
   - 'delete any remote_video media'
   - 'delete any remote_video media revisions'
+  - 'delete any staff content'
   - 'delete any video media'
   - 'delete any video media revisions'
   - 'delete article revisions'
@@ -91,8 +95,10 @@ permissions:
   - 'delete own image media'
   - 'delete own page content'
   - 'delete own remote_video media'
+  - 'delete own staff content'
   - 'delete own video media'
   - 'delete page revisions'
+  - 'delete staff revisions'
   - 'display eu cookie compliance popup'
   - 'edit any announcement content'
   - 'edit any article content'
@@ -104,6 +110,7 @@ permissions:
   - 'edit any menu_information block content'
   - 'edit any page content'
   - 'edit any remote_video media'
+  - 'edit any staff content'
   - 'edit any video media'
   - 'edit own announcement content'
   - 'edit own article content'
@@ -112,8 +119,8 @@ permissions:
   - 'edit own image media'
   - 'edit own page content'
   - 'edit own remote_video media'
+  - 'edit own staff content'
   - 'edit own video media'
-  - 'edit terms in tags'
   - 'revert all revisions'
   - 'revert announcement revisions'
   - 'revert any audio media revisions'
@@ -126,8 +133,10 @@ permissions:
   - 'revert any video media revisions'
   - 'revert article revisions'
   - 'revert page revisions'
+  - 'revert staff revisions'
   - 'update any media'
   - 'update media'
+  - 'use text format full_html'
   - 'view all media revisions'
   - 'view all revisions'
   - 'view announcement revisions'
@@ -144,4 +153,5 @@ permissions:
   - 'view own unpublished content'
   - 'view own unpublished media'
   - 'view page revisions'
+  - 'view staff revisions'
   - 'view the administration theme'
