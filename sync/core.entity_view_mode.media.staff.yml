@@ -1,0 +1,11 @@
+uuid: 455dc042-8be8-4e60-bb3d-a1302fa8f03e
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - media
+id: media.staff
+label: Staff
+description: ''
+targetEntityType: media
+cache: true

@@ -1,0 +1,17 @@
+uuid: 3906a488-bc3c-4ed3-b9c8-e716894276ff
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Staff
+type: staff
+description: 'Add a <em>staff</em> profile to the website'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

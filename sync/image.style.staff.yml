@@ -1,0 +1,26 @@
+uuid: bf557cd2-ba38-4e85-8367-433e538162cc
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - crop.type.staff
+  module:
+    - crop
+name: staff
+label: Staff
+effects:
+  5423696e-e6bc-40c8-992b-12a26dd4eee4:
+    uuid: 5423696e-e6bc-40c8-992b-12a26dd4eee4
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: staff
+      automatic_crop_provider: null
+  9e2ad58e-3648-4fcb-a4a2-b0b269f9cc0c:
+    uuid: 9e2ad58e-3648-4fcb-a4a2-b0b269f9cc0c
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 500
+      height: 500
+      anchor: center-center
