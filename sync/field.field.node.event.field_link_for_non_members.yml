@@ -1,0 +1,23 @@
+uuid: fc7e500a-eb4d-424a-b11b-e90f749bfee0
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link_for_non_members
+    - node.type.event
+  module:
+    - link
+id: node.event.field_link_for_non_members
+field_name: field_link_for_non_members
+entity_type: node
+bundle: event
+label: 'Link for non members'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 16
+field_type: link

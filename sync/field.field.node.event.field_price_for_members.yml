@@ -1,0 +1,23 @@
+uuid: 8f95e43d-41f2-446a-bed3-4bac79dc5b19
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price_for_members
+    - node.type.event
+id: node.event.field_price_for_members
+field_name: field_price_for_members
+entity_type: node
+bundle: event
+label: 'Price for members'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: £
+  suffix: ''
+field_type: decimal

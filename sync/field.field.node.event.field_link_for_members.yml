@@ -1,0 +1,23 @@
+uuid: ef19afbb-5bdf-43b6-aeb4-75a05fe80d86
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link_for_members
+    - node.type.event
+  module:
+    - link
+id: node.event.field_link_for_members
+field_name: field_link_for_members
+entity_type: node
+bundle: event
+label: 'Link for members'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 0
+  link_type: 16
+field_type: link

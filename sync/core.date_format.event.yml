@@ -1,0 +1,8 @@
+uuid: 31789d2b-0310-4119-8886-8d29aac547bb
+langcode: en-gb
+status: true
+dependencies: {  }
+id: event
+label: Event
+locked: false
+pattern: 'g:ia - l j F Y'
