@@ -16994,19 +16994,20 @@ a.ui-button:active,
   border-radius: 300px 300px 90px 90px;
   margin-bottom: 30px;
 }
+.path-frontpage #top-content .region > div > h2, .path-frontpage #top-content .region > div > .h2 {
+  display: none;
+}
 .path-frontpage #top-content .region > div h2, .path-frontpage #top-content .region > div .h2 {
-  order: 2;
   color: #ffffff;
-  margin-bottom: 0;
+  margin-bottom: 15px;
 }
 .path-frontpage #top-content .region > div .field--name-field-image {
-  order: 1;
+  margin-bottom: 15px;
 }
 .path-frontpage #top-content .region > div img {
   border-radius: 50%;
 }
 .path-frontpage #top-content .region > div .field--name-body {
-  order: 3;
   max-width: 850px;
   margin: 0 auto 0 auto;
 }

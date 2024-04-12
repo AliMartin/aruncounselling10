@@ -29,15 +29,18 @@
       padding: 30px;
       border-radius: 300px 300px 90px 90px;
       margin-bottom: 30px;
-  
+
+      > h2 {
+        display: none;
+      }
+
       h2 {
-        order: 2;
         color: $white;
-        margin-bottom: 0;
+        margin-bottom: 15px;
       }
   
       .field--name-field-image {
-        order: 1;
+        margin-bottom: 15px;
       }
   
       img {
@@ -45,7 +48,6 @@
       }
   
       .field--name-body {
-        order: 3;
         max-width: 850px;
         margin: 0 auto 0 auto;
       }
