@@ -8,8 +8,15 @@ dependencies:
     - field.field.node.announcement.field_image
     - node.type.announcement
   module:
+    - field_layout
+    - layout_discovery
+    - manage_display
     - text
-    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
 id: node.announcement.teaser
 targetEntityType: node
 bundle: announcement
@@ -28,6 +35,17 @@ content:
     third_party_settings: {  }
     weight: 100
     region: content
+  title:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: true
+      tag: h2
+    third_party_settings: {  }
+    weight: -49
+    region: content
 hidden:
+  created: true
   field_image: true
   langcode: true
+  uid: true

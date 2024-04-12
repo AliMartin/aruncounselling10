@@ -12,10 +12,17 @@ dependencies:
     - node.type.article
   module:
     - faqfield
+    - field_layout
     - file
+    - layout_discovery
     - media_library
     - path
     - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
 _core:
   default_config_hash: ewbd6G2uX456-bgwseM2Q-KQG3RkASoyHmTh-XR3oLU
 id: node.article.default

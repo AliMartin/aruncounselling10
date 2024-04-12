@@ -7,8 +7,14 @@ dependencies:
     - field.field.node.announcement.field_image
     - node.type.announcement
   module:
+    - field_layout
+    - layout_discovery
     - text
-    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
 id: node.announcement.default
 targetEntityType: node
 bundle: announcement
@@ -36,4 +42,7 @@ content:
     weight: 2
     region: content
 hidden:
+  created: true
   langcode: true
+  title: true
+  uid: true

@@ -10,8 +10,8 @@ dependencies:
     - arun10
 id: arun10_forindividuals
 theme: arun10
-region: mege_menu
-weight: 0
+region: mega_menu
+weight: -10
 provider: null
 plugin: 'block_content:ddcd0105-9cef-4967-b6b3-02664955be94'
 settings:

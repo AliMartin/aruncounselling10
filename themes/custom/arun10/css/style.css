@@ -16722,6 +16722,11 @@ main #main-content .region-content {
   margin-bottom: 5px;
 }
 
+.page-node-type-event .field--name-field-date {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
 /* Component containers
 ----------------------------------*/
 .ui-widget {

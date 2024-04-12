@@ -9,8 +9,15 @@ dependencies:
     - field.field.block_content.front_page.field_menu_section
     - image.style.round
   module:
+    - field_layout
+    - layout_discovery
     - media
     - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
 id: block_content.front_page.default
 targetEntityType: block_content
 bundle: front_page

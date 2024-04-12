@@ -7,7 +7,14 @@ dependencies:
     - field.field.block_content.menu_information.body
     - field.field.block_content.menu_information.field_image
   module:
+    - field_layout
+    - layout_discovery
     - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
 id: block_content.menu_information.default
 targetEntityType: block_content
 bundle: menu_information

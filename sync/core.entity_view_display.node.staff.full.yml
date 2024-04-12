@@ -11,8 +11,15 @@ dependencies:
     - image.style.staff
     - node.type.staff
   module:
+    - field_layout
     - image
+    - layout_discovery
     - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
 id: node.staff.full
 targetEntityType: node
 bundle: staff
@@ -23,7 +30,7 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 3
+    weight: 2
     region: content
   field_position:
     type: string
@@ -31,7 +38,7 @@ content:
     settings:
       link_to_entity: false
     third_party_settings: {  }
-    weight: 2
+    weight: 1
     region: content
   field_staff_image:
     type: image
@@ -47,18 +54,11 @@ content:
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 4
-    region: content
-  title:
-    type: string
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-    weight: 5
+    weight: 3
     region: content
 hidden:
   created: true
   field_category: true
   langcode: true
+  title: true
   uid: true

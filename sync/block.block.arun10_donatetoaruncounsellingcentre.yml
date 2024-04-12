@@ -10,8 +10,8 @@ dependencies:
     - arun10
 id: arun10_donatetoaruncounsellingcentre
 theme: arun10
-region: mege_menu
-weight: 0
+region: mega_menu
+weight: -8
 provider: null
 plugin: 'block_content:fb37bec6-bf7b-4f32-b138-1a4b25ecc522'
 settings:

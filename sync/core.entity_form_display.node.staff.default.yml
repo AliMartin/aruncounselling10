@@ -10,9 +10,16 @@ dependencies:
     - image.style.medium
     - node.type.staff
   module:
+    - field_layout
     - image_widget_crop
+    - layout_discovery
     - path
     - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
 id: node.staff.default
 targetEntityType: node
 bundle: staff

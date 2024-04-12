@@ -9,7 +9,7 @@ dependencies:
 id: arun10_topmenu_2
 theme: arun10
 region: header_right
-weight: -8
+weight: -12
 provider: null
 plugin: 'tb_megamenu_menu_block:top-menu'
 settings:

@@ -9,7 +9,7 @@ dependencies:
 id: arun10_responsivemenumobileicon
 theme: arun10
 region: header_right
-weight: -7
+weight: -9
 provider: null
 plugin: responsive_menu_toggle
 settings:

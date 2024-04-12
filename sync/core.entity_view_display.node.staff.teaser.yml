@@ -10,7 +10,14 @@ dependencies:
     - field.field.node.staff.field_staff_image
     - node.type.staff
   module:
+    - field_layout
+    - layout_discovery
     - text
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
 id: node.staff.teaser
 targetEntityType: node
 bundle: staff

@@ -15114,6 +15114,10 @@ a > .ck-content code {
   font-size: larger;
   margin-bottom: 5px;
 }
+.ck-content .page-node-type-event .field--name-field-date {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
 .ck-content .ui-widget {
   font-family: inherit;
   font-size: inherit;

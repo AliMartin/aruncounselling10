@@ -12,9 +12,15 @@ dependencies:
     - node.type.article
   module:
     - faqfield
+    - field_layout
     - file
+    - layout_discovery
     - text
-    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
 _core:
   default_config_hash: 7fb0j9HnIXfP9ndewzgPPzzeX_SV532wuYpkscrCMCk
 id: node.article.default
@@ -74,5 +80,8 @@ content:
     weight: 5
     region: content
 hidden:
+  created: true
   field_menu_section: true
   langcode: true
+  title: true
+  uid: true

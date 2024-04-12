@@ -10,9 +10,16 @@ dependencies:
     - image.style.staff
     - node.type.staff
   module:
+    - field_layout
     - image
+    - layout_discovery
+    - manage_display
     - text
-    - user
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
 id: node.staff.default
 targetEntityType: node
 bundle: staff
@@ -49,6 +56,17 @@ content:
     third_party_settings: {  }
     weight: 3
     region: content
+  title:
+    type: title
+    label: hidden
+    settings:
+      link_to_entity: true
+      tag: h2
+    third_party_settings: {  }
+    weight: -49
+    region: content
 hidden:
+  created: true
   field_category: true
   langcode: true
+  uid: true

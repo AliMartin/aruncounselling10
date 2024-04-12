@@ -25,6 +25,7 @@ module:
   editor: 0
   faqfield: 0
   field: 0
+  field_layout: 0
   field_ui: 0
   file: 0
   filter: 0
@@ -38,10 +39,12 @@ module:
   jquery_ui: 0
   jquery_ui_accordion: 0
   language: 0
+  layout_discovery: 0
   link: 0
   link_attributes: 0
   link_attributes_menu_link_content: 0
   locale: 0
+  manage_display: 0
   media: 0
   media_library: 0
   menu_link_content: 0
