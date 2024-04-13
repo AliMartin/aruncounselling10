@@ -7,8 +7,7 @@ dependencies:
     - field.field.node.event.body
     - field.field.node.event.field_date
     - field.field.node.event.field_image
-    - field.field.node.event.field_link_for_members
-    - field.field.node.event.field_link_for_non_members
+    - field.field.node.event.field_link
     - field.field.node.event.field_price_for_members
     - field.field.node.event.field_price_for_non_members
     - node.type.event
@@ -16,7 +15,6 @@ dependencies:
     - datetime
     - field_layout
     - layout_discovery
-    - link
     - manage_display
     - text
 third_party_settings:
@@ -52,30 +50,6 @@ content:
       link: false
     third_party_settings: {  }
     weight: 0
-    region: content
-  field_link_for_members:
-    type: link
-    label: above
-    settings:
-      trim_length: 80
-      url_only: false
-      url_plain: false
-      rel: nofollow
-      target: _blank
-    third_party_settings: {  }
-    weight: 4
-    region: content
-  field_link_for_non_members:
-    type: link
-    label: above
-    settings:
-      trim_length: 80
-      url_only: false
-      url_plain: false
-      rel: nofollow
-      target: _blank
-    third_party_settings: {  }
-    weight: 6
     region: content
   field_price_for_members:
     type: number_decimal
@@ -115,5 +89,6 @@ content:
     region: content
 hidden:
   created: true
+  field_link: true
   langcode: true
   uid: true

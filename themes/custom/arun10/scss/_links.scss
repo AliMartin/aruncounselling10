@@ -3,9 +3,11 @@
   border-radius: 50px;
 }
 
+.field--name-field-link a,
 .btn-secondary {
   background-color: $gray-600;
   border: 1px solid $gray-600;
+  text-decoration: none;
   color: $white;
   padding: 5px 15px;
   border-radius: 50px;

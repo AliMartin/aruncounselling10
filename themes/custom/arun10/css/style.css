@@ -16500,14 +16500,18 @@ ul.nav-tabs li a.nav-link:hover, ul.nav-tabs li .media-library-view--widget .vie
   border-radius: 50px;
 }
 
+.field--name-field-link a,
 .btn-secondary {
   background-color: #8c8582;
   border: 1px solid #8c8582;
+  text-decoration: none;
   color: #ffffff;
   padding: 5px 15px;
   border-radius: 50px;
 }
-.btn-secondary:hover, .btn-secondary:focus {
+.field--name-field-link a:hover, .field--name-field-link a:focus,
+.btn-secondary:hover,
+.btn-secondary:focus {
   background-color: #5d5957;
   border: 1px solid #5d5957;
   color: #ffffff;
@@ -16723,6 +16727,18 @@ main #main-content .region-content {
 }
 
 .page-node-type-event .field--name-field-date {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.page-node-type-event .field--name-field-link a {
+  display: inline-block;
+  margin: 15px 0 0 0;
+}
+
+.view-events .views-field-body {
+  margin-bottom: 15px !important;
+}
+.view-events .views-field-field-date {
   font-weight: 700;
   margin-bottom: 15px;
 }
@@ -16943,24 +16959,30 @@ a.ui-button:active,
 }
 
 .view-announcements,
+.view-events,
 #block-arun10-views-block-announcements-block-1 {
   text-align: center;
 }
 .view-announcements h2, .view-announcements .h2,
+.view-events h2,
+.view-events .h2,
 #block-arun10-views-block-announcements-block-1 h2,
 #block-arun10-views-block-announcements-block-1 .h2 {
   margin-bottom: 15px;
 }
 .view-announcements .views-row,
+.view-events .views-row,
 #block-arun10-views-block-announcements-block-1 .views-row {
   margin-bottom: 45px;
 }
 .view-announcements .views-field-created,
+.view-events .views-field-created,
 #block-arun10-views-block-announcements-block-1 .views-field-created {
   font-weight: 700;
   margin-bottom: 5px;
 }
 .view-announcements .views-field-body,
+.view-events .views-field-body,
 #block-arun10-views-block-announcements-block-1 .views-field-body {
   margin-bottom: 5px;
 }

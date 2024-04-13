@@ -14920,14 +14920,18 @@ a > .ck-content code {
   padding: 5px 15px;
   border-radius: 50px;
 }
+.ck-content .field--name-field-link a,
 .ck-content .btn-secondary {
   background-color: #8c8582;
   border: 1px solid #8c8582;
+  text-decoration: none;
   color: #ffffff;
   padding: 5px 15px;
   border-radius: 50px;
 }
-.ck-content .btn-secondary:hover, .ck-content .btn-secondary:focus {
+.ck-content .field--name-field-link a:hover, .ck-content .field--name-field-link a:focus,
+.ck-content .btn-secondary:hover,
+.ck-content .btn-secondary:focus {
   background-color: #5d5957;
   border: 1px solid #5d5957;
   color: #ffffff;
@@ -15118,6 +15122,17 @@ a > .ck-content code {
   font-weight: 700;
   margin-bottom: 15px;
 }
+.ck-content .page-node-type-event .field--name-field-link a {
+  display: inline-block;
+  margin: 15px 0 0 0;
+}
+.ck-content .view-events .views-field-body {
+  margin-bottom: 15px !important;
+}
+.ck-content .view-events .views-field-field-date {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
 .ck-content .ui-widget {
   font-family: inherit;
   font-size: inherit;
@@ -15297,24 +15312,30 @@ a > .ck-content code {
   box-shadow: 0 0 5px #666666;
 }
 .ck-content .view-announcements,
+.ck-content .view-events,
 .ck-content #block-arun10-views-block-announcements-block-1 {
   text-align: center;
 }
 .ck-content .view-announcements h2, .ck-content .view-announcements .h2,
+.ck-content .view-events h2,
+.ck-content .view-events .h2,
 .ck-content #block-arun10-views-block-announcements-block-1 h2,
 .ck-content #block-arun10-views-block-announcements-block-1 .h2 {
   margin-bottom: 15px;
 }
 .ck-content .view-announcements .views-row,
+.ck-content .view-events .views-row,
 .ck-content #block-arun10-views-block-announcements-block-1 .views-row {
   margin-bottom: 45px;
 }
 .ck-content .view-announcements .views-field-created,
+.ck-content .view-events .views-field-created,
 .ck-content #block-arun10-views-block-announcements-block-1 .views-field-created {
   font-weight: 700;
   margin-bottom: 5px;
 }
 .ck-content .view-announcements .views-field-body,
+.ck-content .view-events .views-field-body,
 .ck-content #block-arun10-views-block-announcements-block-1 .views-field-body {
   margin-bottom: 5px;
 }
