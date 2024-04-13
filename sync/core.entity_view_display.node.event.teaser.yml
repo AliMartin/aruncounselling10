@@ -53,6 +53,8 @@ hidden:
   field_date: true
   field_image: true
   field_link: true
+  field_link_for_members: true
+  field_link_for_non_members: true
   field_price_for_members: true
   field_price_for_non_members: true
   langcode: true

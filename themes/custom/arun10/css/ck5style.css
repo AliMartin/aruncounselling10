@@ -15126,6 +15126,9 @@ a > .ck-content code {
   display: inline-block;
   margin: 15px 0 0 0;
 }
+.ck-content .view-events .view-header {
+  margin-bottom: 30px;
+}
 .ck-content .view-events .views-field-body {
   margin-bottom: 15px !important;
 }

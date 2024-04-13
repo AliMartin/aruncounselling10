@@ -90,5 +90,7 @@ content:
 hidden:
   created: true
   field_link: true
+  field_link_for_members: true
+  field_link_for_non_members: true
   langcode: true
   uid: true

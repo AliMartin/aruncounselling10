@@ -16735,6 +16735,9 @@ main #main-content .region-content {
   margin: 15px 0 0 0;
 }
 
+.view-events .view-header {
+  margin-bottom: 30px;
+}
 .view-events .views-field-body {
   margin-bottom: 15px !important;
 }

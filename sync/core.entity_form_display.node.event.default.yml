@@ -131,4 +131,6 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  field_link_for_members: true
+  field_link_for_non_members: true
