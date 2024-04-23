@@ -15118,6 +15118,12 @@ a > .ck-content code {
   font-size: larger;
   margin-bottom: 5px;
 }
+.ck-content .page-node-type-event .field--name-field-cropped-image {
+  margin-bottom: 30px;
+}
+.ck-content .page-node-type-event .field--name-field-cropped-image img {
+  border-radius: 20px;
+}
 .ck-content .page-node-type-event .field--name-field-date {
   font-weight: 700;
   margin-bottom: 15px;

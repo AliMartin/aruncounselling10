@@ -1,15 +1,15 @@
-uuid: 49227857-d5af-4d4a-8d39-72e9c0cccc6c
+uuid: 9cff0043-3408-47e6-add7-ff2d9d038edc
 langcode: en-gb
 status: true
 dependencies:
   config:
-    - field.storage.node.field_price_for_non_members
+    - field.storage.node.field_price_for_general_admissio
     - node.type.event
-id: node.event.field_price_for_non_members
-field_name: field_price_for_non_members
+id: node.event.field_price_for_general_admissio
+field_name: field_price_for_general_admissio
 entity_type: node
 bundle: event
-label: 'Price for non members'
+label: 'Price for General Admission'
 description: ''
 required: false
 translatable: false

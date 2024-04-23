@@ -4,18 +4,20 @@ status: true
 dependencies:
   config:
     - field.field.node.event.body
+    - field.field.node.event.field_cropped_image
     - field.field.node.event.field_date
-    - field.field.node.event.field_image
     - field.field.node.event.field_link
+    - field.field.node.event.field_price_for_friends_of_arun
+    - field.field.node.event.field_price_for_general_admissio
     - field.field.node.event.field_price_for_members
-    - field.field.node.event.field_price_for_non_members
+    - image.style.medium
     - node.type.event
   module:
     - datetime
     - field_layout
+    - image_widget_crop
     - layout_discovery
     - link
-    - media_library
     - path
     - text
 third_party_settings:
@@ -30,7 +32,7 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 3
+    weight: 4
     region: content
     settings:
       rows: 9
@@ -40,39 +42,55 @@ content:
     third_party_settings: {  }
   created:
     type: datetime_timestamp
-    weight: 9
+    weight: 11
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_cropped_image:
+    type: image_widget_crop
+    weight: 2
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: medium
+      crop_preview_image_style: crop_thumbnail
+      crop_list:
+        - default
+      crop_types_required:
+        - default
+      warn_multiple_usages: true
+      show_crop_area: true
+      show_default_crop: true
     third_party_settings: {  }
   field_date:
     type: datetime_default
-    weight: 2
+    weight: 3
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_image:
-    type: media_library_widget
-    weight: 1
-    region: content
-    settings:
-      media_types: {  }
-    third_party_settings: {  }
   field_link:
     type: link_default
-    weight: 4
+    weight: 5
     region: content
     settings:
       placeholder_url: ''
       placeholder_title: ''
     third_party_settings: {  }
-  field_price_for_members:
+  field_price_for_friends_of_arun:
     type: number
-    weight: 5
+    weight: 7
     region: content
     settings:
       placeholder: ''
     third_party_settings: {  }
-  field_price_for_non_members:
+  field_price_for_general_admissio:
+    type: number
+    weight: 8
+    region: content
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+  field_price_for_members:
     type: number
     weight: 6
     region: content
@@ -81,34 +99,34 @@ content:
     third_party_settings: {  }
   langcode:
     type: language_select
-    weight: 7
+    weight: 9
     region: content
     settings:
       include_locked: true
     third_party_settings: {  }
   path:
     type: path
-    weight: 12
+    weight: 14
     region: content
     settings: {  }
     third_party_settings: {  }
   promote:
     type: boolean_checkbox
-    weight: 10
+    weight: 12
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   status:
     type: boolean_checkbox
-    weight: 13
+    weight: 15
     region: content
     settings:
       display_label: true
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
-    weight: 11
+    weight: 13
     region: content
     settings:
       display_label: true
@@ -123,7 +141,7 @@ content:
     third_party_settings: {  }
   uid:
     type: entity_reference_autocomplete
-    weight: 8
+    weight: 10
     region: content
     settings:
       match_operator: CONTAINS
@@ -131,6 +149,4 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-hidden:
-  field_link_for_members: true
-  field_link_for_non_members: true
+hidden: {  }

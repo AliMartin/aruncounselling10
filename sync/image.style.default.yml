@@ -1,0 +1,26 @@
+uuid: 14da0e05-efd7-40c3-a8cb-1e6907df2628
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - crop.type.default
+  module:
+    - crop
+name: default
+label: Default
+effects:
+  2b896270-4be3-43d8-8fb5-01229865d322:
+    uuid: 2b896270-4be3-43d8-8fb5-01229865d322
+    id: crop_crop
+    weight: 1
+    data:
+      crop_type: default
+      automatic_crop_provider: null
+  fddbd467-8111-4c01-bea3-cfef22b3a644:
+    uuid: fddbd467-8111-4c01-bea3-cfef22b3a644
+    id: image_scale
+    weight: 2
+    data:
+      width: 900
+      height: null
+      upscale: false

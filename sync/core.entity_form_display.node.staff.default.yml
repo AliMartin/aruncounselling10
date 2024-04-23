@@ -68,7 +68,7 @@ content:
       crop_types_required:
         - staff
       warn_multiple_usages: true
-      show_crop_area: false
+      show_crop_area: true
       show_default_crop: true
     third_party_settings: {  }
   langcode:

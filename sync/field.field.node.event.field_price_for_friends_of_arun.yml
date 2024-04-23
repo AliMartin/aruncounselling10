@@ -1,15 +1,15 @@
-uuid: 8f95e43d-41f2-446a-bed3-4bac79dc5b19
+uuid: 01dca4ee-e9b5-497a-97a6-bc999ab3d2ba
 langcode: en-gb
 status: true
 dependencies:
   config:
-    - field.storage.node.field_price_for_members
+    - field.storage.node.field_price_for_friends_of_arun
     - node.type.event
-id: node.event.field_price_for_members
-field_name: field_price_for_members
+id: node.event.field_price_for_friends_of_arun
+field_name: field_price_for_friends_of_arun
 entity_type: node
 bundle: event
-label: 'Price for Members'
+label: 'Price for Friends of Arun Counselling'
 description: ''
 required: false
 translatable: false

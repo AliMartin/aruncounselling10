@@ -1443,17 +1443,17 @@
         },
         {
             "name": "drupal/blazy",
-            "version": "2.24.0",
+            "version": "2.25.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/blazy.git",
-                "reference": "8.x-2.24"
+                "reference": "8.x-2.25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/blazy-8.x-2.24.zip",
-                "reference": "8.x-2.24",
-                "shasum": "6770d662259341b979e0642ed6ea37228728d573"
+                "url": "https://ftp.drupal.org/files/projects/blazy-8.x-2.25.zip",
+                "reference": "8.x-2.25",
+                "shasum": "e8589661ef9bffd635a0acc57e7ba286969dc71d"
             },
             "require": {
                 "drupal/core": "^8.8 || ^9 || ^10"
@@ -1464,8 +1464,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-2.24",
-                    "datestamp": "1711902155",
+                    "version": "8.x-2.25",
+                    "datestamp": "1713536737",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -3418,17 +3418,17 @@
         },
         {
             "name": "drupal/tb_megamenu",
-            "version": "3.0.0-alpha3",
+            "version": "3.0.0-alpha4",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/tb_megamenu.git",
-                "reference": "3.0.0-alpha3"
+                "reference": "3.0.0-alpha4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/tb_megamenu-3.0.0-alpha3.zip",
-                "reference": "3.0.0-alpha3",
-                "shasum": "f048716a9404a998800bdaf0c3a6c3e8b79f3750"
+                "url": "https://ftp.drupal.org/files/projects/tb_megamenu-3.0.0-alpha4.zip",
+                "reference": "3.0.0-alpha4",
+                "shasum": "3a944fbcaaf5f1b28e0206ccfeb54a1bd24ee72f"
             },
             "require": {
                 "drupal/core": "^8 || ^9 || ^10 || ^11"
@@ -3436,8 +3436,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "3.0.0-alpha3",
-                    "datestamp": "1711742804",
+                    "version": "3.0.0-alpha4",
+                    "datestamp": "1713052614",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
@@ -3553,17 +3553,17 @@
         },
         {
             "name": "drupal/token",
-            "version": "1.13.0",
+            "version": "1.14.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/token.git",
-                "reference": "8.x-1.13"
+                "reference": "8.x-1.14"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/token-8.x-1.13.zip",
-                "reference": "8.x-1.13",
-                "shasum": "f2a074b51726de3727c1d900237d6d471806a4d2"
+                "url": "https://ftp.drupal.org/files/projects/token-8.x-1.14.zip",
+                "reference": "8.x-1.14",
+                "shasum": "df3cae709fcc1a99ac1111ce67a0d6af56d287d7"
             },
             "require": {
                 "drupal/core": "^9.2 || ^10"
@@ -3571,8 +3571,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.13",
-                    "datestamp": "1697885927",
+                    "version": "8.x-1.14",
+                    "datestamp": "1713009399",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4054,24 +4054,24 @@
         },
         {
             "name": "grasmash/yaml-cli",
-            "version": "3.1.0",
+            "version": "3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/grasmash/yaml-cli.git",
-                "reference": "00f3fd775f6abbfacd44432f1999c3c3b02791f0"
+                "reference": "a5af7c16a0b98fca7d06e85ba517d526e1ba21de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/grasmash/yaml-cli/zipball/00f3fd775f6abbfacd44432f1999c3c3b02791f0",
-                "reference": "00f3fd775f6abbfacd44432f1999c3c3b02791f0",
+                "url": "https://api.github.com/repos/grasmash/yaml-cli/zipball/a5af7c16a0b98fca7d06e85ba517d526e1ba21de",
+                "reference": "a5af7c16a0b98fca7d06e85ba517d526e1ba21de",
                 "shasum": ""
             },
             "require": {
                 "dflydev/dot-access-data": "^3",
                 "php": ">=8.0",
-                "symfony/console": "^6",
-                "symfony/filesystem": "^6",
-                "symfony/yaml": "^6"
+                "symfony/console": "^6 || ^7",
+                "symfony/filesystem": "^6 || ^7",
+                "symfony/yaml": "^6 || ^7"
             },
             "require-dev": {
                 "php-coveralls/php-coveralls": "^2",
@@ -4104,9 +4104,9 @@
             "description": "A command line tool for reading and manipulating yaml files.",
             "support": {
                 "issues": "https://github.com/grasmash/yaml-cli/issues",
-                "source": "https://github.com/grasmash/yaml-cli/tree/3.1.0"
+                "source": "https://github.com/grasmash/yaml-cli/tree/3.2.0"
             },
-            "time": "2022-05-09T20:22:34+00:00"
+            "time": "2024-04-17T16:23:04+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",

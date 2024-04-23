@@ -1,11 +1,11 @@
-uuid: f763df7e-bb98-4094-9b85-cf7890a9fc37
+uuid: 4553c770-2aea-4ef8-8c0a-1bd861fb32af
 langcode: en-gb
 status: true
 dependencies:
   module:
     - node
-id: node.field_price_for_non_members
-field_name: field_price_for_non_members
+id: node.field_price_for_general_admissio
+field_name: field_price_for_general_admissio
 entity_type: node
 type: decimal
 settings:

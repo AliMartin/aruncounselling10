@@ -16726,6 +16726,12 @@ main #main-content .region-content {
   margin-bottom: 5px;
 }
 
+.page-node-type-event .field--name-field-cropped-image {
+  margin-bottom: 30px;
+}
+.page-node-type-event .field--name-field-cropped-image img {
+  border-radius: 20px;
+}
 .page-node-type-event .field--name-field-date {
   font-weight: 700;
   margin-bottom: 15px;

@@ -1,4 +1,13 @@
 .page-node-type-event {
+
+  .field--name-field-cropped-image {
+    margin-bottom: 30px;
+
+    img {
+      border-radius: 20px;
+    }
+  }
+
   .field--name-field-date {
     font-weight: $font-weight-bold;
     margin-bottom: 15px;
