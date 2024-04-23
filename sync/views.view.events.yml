@@ -8,6 +8,7 @@ dependencies:
     - node.type.event
     - system.menu.main
   module:
+    - daterange_compact
     - datetime
     - node
     - text
@@ -143,10 +144,9 @@ display:
           empty_zero: false
           hide_alter_empty: true
           click_sort_column: value
-          type: datetime_default
+          type: daterange_compact
           settings:
-            timezone_override: ''
-            format_type: medium
+            daterange_compact_format: medium_datetime
           group_column: value
           group_columns: {  }
           group_rows: true

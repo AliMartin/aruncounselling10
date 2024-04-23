@@ -7,13 +7,13 @@ dependencies:
     - field.field.node.event.body
     - field.field.node.event.field_cropped_image
     - field.field.node.event.field_date
+    - field.field.node.event.field_image
     - field.field.node.event.field_link
     - field.field.node.event.field_price_for_friends_of_arun
     - field.field.node.event.field_price_for_general_admissio
     - field.field.node.event.field_price_for_members
     - node.type.event
   module:
-    - datetime
     - field_layout
     - layout_discovery
     - manage_display
@@ -34,15 +34,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 3
-    region: content
-  field_date:
-    type: datetime_default
-    label: hidden
-    settings:
-      timezone_override: ''
-      format_type: event
-    third_party_settings: {  }
-    weight: 2
     region: content
   field_price_for_members:
     type: number_decimal
@@ -72,6 +63,8 @@ content:
 hidden:
   created: true
   field_cropped_image: true
+  field_date: true
+  field_image: true
   field_link: true
   field_price_for_friends_of_arun: true
   field_price_for_general_admissio: true

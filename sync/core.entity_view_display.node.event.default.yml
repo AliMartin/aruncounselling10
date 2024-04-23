@@ -6,6 +6,7 @@ dependencies:
     - field.field.node.event.body
     - field.field.node.event.field_cropped_image
     - field.field.node.event.field_date
+    - field.field.node.event.field_image
     - field.field.node.event.field_link
     - field.field.node.event.field_price_for_friends_of_arun
     - field.field.node.event.field_price_for_general_admissio
@@ -13,7 +14,7 @@ dependencies:
     - image.style.default
     - node.type.event
   module:
-    - datetime
+    - daterange_compact
     - field_layout
     - image
     - layout_discovery
@@ -49,11 +50,10 @@ content:
     weight: 0
     region: content
   field_date:
-    type: datetime_default
+    type: daterange_compact
     label: hidden
     settings:
-      timezone_override: ''
-      format_type: event
+      daterange_compact_format: medium_datetime
     third_party_settings: {  }
     weight: 2
     region: content
@@ -118,5 +118,6 @@ content:
     region: content
 hidden:
   created: true
+  field_image: true
   langcode: true
   uid: true
