@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/hyperlum/aruncounselling.hyperluminal.co.uk
+    - export DEPLOYPATH=/home/hyperlum/aruncounselling.com
     - /bin/cp -r * $DEPLOYPATH
