@@ -65,6 +65,7 @@
         "drupal/fitvids": "^2.0",
         "drupal/fontawesome": "^2.26",
         "drupal/honeypot": "^2.1",
+        "drupal/httpswww": "^2.1",
         "drupal/image_widget_crop": "^2.4",
         "drupal/insert_view": "^2.1",
         "drupal/jquery_ui": "^1.6",
