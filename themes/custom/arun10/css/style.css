@@ -16166,8 +16166,8 @@ footer a:hover, footer a:active {
   font-size: 1rem;
 }
 #address-telephone-block img {
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
 }
 #address-telephone-block .outer-wrapper {
@@ -16185,6 +16185,19 @@ footer a:hover, footer a:active {
 #address-telephone-block h5, #address-telephone-block .h5 {
   color: #ffffff;
   margin-bottom: 5px;
+}
+#address-telephone-block span.telephone-button {
+  display: flex;
+  margin: 5px 0 0 0;
+  padding: 5px 15px;
+}
+#address-telephone-block span.telephone-button a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+}
+#address-telephone-block span.telephone-button svg {
+  margin-right: 5px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -16352,13 +16365,19 @@ footer a:hover, footer a:active {
   background-color: #ffbb54;
   color: #4a4e56;
 }
-#block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-telephone a.level-1,
+#block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-telephone a.level-1 {
+  padding: 0 15px 0 0;
+}
+#block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-telephone a.level-1 span,
+#block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-telephone a.level-1 svg {
+  font-size: 16px;
+  padding: 10px 10px 10px 15px;
+  margin-right: inherit;
+}
 #block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-email a.level-1 {
   font-size: 0;
   padding: 0;
 }
-#block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-telephone a.level-1 span,
-#block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-telephone a.level-1 svg,
 #block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-email a.level-1 span,
 #block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-email a.level-1 svg {
   font-size: 16px;
@@ -16429,6 +16448,14 @@ footer a:hover, footer a:active {
     flex-grow: 1;
     justify-content: right;
     padding-left: inherit;
+  }
+  #block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-telephone a.level-1 {
+    font-size: 0;
+    padding: 0;
+  }
+  #block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-telephone a.level-1 span,
+#block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-telephone a.level-1 svg {
+    padding: 10px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -17050,6 +17077,18 @@ a.ui-button:active,
 }
 .path-frontpage #block-arun10-forprofessionals-2 {
   background-color: #c16712;
+}
+
+#block-arun10-callaruncounselling {
+  text-align: center;
+  margin-bottom: 45px;
+}
+#block-arun10-callaruncounselling a {
+  text-decoration: none;
+  font-weight: 700;
+}
+#block-arun10-callaruncounselling a svg {
+  margin-right: 10px;
 }
 
 @media screen and (min-width: 500px) and (max-width: 991px) {

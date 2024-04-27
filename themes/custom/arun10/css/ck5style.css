@@ -14596,8 +14596,8 @@ a > .ck-content code {
   font-size: 1rem;
 }
 .ck-content #address-telephone-block img {
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   border-radius: 50%;
 }
 .ck-content #address-telephone-block .outer-wrapper {
@@ -14615,6 +14615,19 @@ a > .ck-content code {
 .ck-content #address-telephone-block h5, .ck-content #address-telephone-block .h5 {
   color: #ffffff;
   margin-bottom: 5px;
+}
+.ck-content #address-telephone-block span.telephone-button {
+  display: flex;
+  margin: 5px 0 0 0;
+  padding: 5px 15px;
+}
+.ck-content #address-telephone-block span.telephone-button a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+}
+.ck-content #address-telephone-block span.telephone-button svg {
+  margin-right: 5px;
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .ck-content #address-telephone-block .outer-wrapper {
@@ -14780,13 +14793,19 @@ a > .ck-content code {
   background-color: #ffbb54;
   color: #4a4e56;
 }
-.ck-content #block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-telephone a.level-1,
+.ck-content #block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-telephone a.level-1 {
+  padding: 0 15px 0 0;
+}
+.ck-content #block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-telephone a.level-1 span,
+.ck-content #block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-telephone a.level-1 svg {
+  font-size: 16px;
+  padding: 10px 10px 10px 15px;
+  margin-right: inherit;
+}
 .ck-content #block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-email a.level-1 {
   font-size: 0;
   padding: 0;
 }
-.ck-content #block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-telephone a.level-1 span,
-.ck-content #block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-telephone a.level-1 svg,
 .ck-content #block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-email a.level-1 span,
 .ck-content #block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-email a.level-1 svg {
   font-size: 16px;
@@ -14856,6 +14875,14 @@ a > .ck-content code {
     flex-grow: 1;
     justify-content: right;
     padding-left: inherit;
+  }
+  .ck-content #block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-telephone a.level-1 {
+    font-size: 0;
+    padding: 0;
+  }
+  .ck-content #block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-telephone a.level-1 span,
+.ck-content #block-arun10-topmenu-2 li.tbm-item.level-1.top-menu-telephone a.level-1 svg {
+    padding: 10px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -15402,6 +15429,17 @@ a > .ck-content code {
 }
 .ck-content .path-frontpage #block-arun10-forprofessionals-2 {
   background-color: #c16712;
+}
+.ck-content #block-arun10-callaruncounselling {
+  text-align: center;
+  margin-bottom: 45px;
+}
+.ck-content #block-arun10-callaruncounselling a {
+  text-decoration: none;
+  font-weight: 700;
+}
+.ck-content #block-arun10-callaruncounselling a svg {
+  margin-right: 10px;
 }
 @media screen and (min-width: 500px) and (max-width: 991px) {
   .ck-content .path-frontpage #top-content .region > div img {

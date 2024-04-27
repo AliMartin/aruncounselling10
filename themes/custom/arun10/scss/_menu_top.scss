@@ -48,7 +48,21 @@
 
 
   // Tweak these top nav buttons
-  li.tbm-item.level-1.top-menu-telephone,
+  li.tbm-item.level-1.top-menu-telephone {
+
+    a.level-1 {
+      // font-size: 0;
+      padding: 0 15px 0 0;
+
+      span,
+      svg {
+        font-size: 16px;
+        padding: 10px 10px 10px 15px;
+        margin-right: inherit;
+      }  
+    }
+  }
+
   li.tbm-item.level-1.top-menu-email {
     a.level-1 {
       font-size: 0;
@@ -152,6 +166,18 @@
       flex-grow: 1;
       justify-content: right;
       padding-left: inherit;
+    }
+
+    li.tbm-item.level-1.top-menu-telephone {
+      a.level-1 {
+        font-size: 0;
+        padding: 0;
+  
+        span,
+        svg {
+          padding: 10px;
+        }  
+      }
     }
   }
 }
