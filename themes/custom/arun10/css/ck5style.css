@@ -15432,7 +15432,7 @@ a > .ck-content code {
 }
 .ck-content #block-arun10-callaruncounselling {
   text-align: center;
-  margin-bottom: 45px;
+  margin-bottom: 70px;
 }
 .ck-content #block-arun10-callaruncounselling a {
   text-decoration: none;
@@ -15440,6 +15440,46 @@ a > .ck-content code {
 }
 .ck-content #block-arun10-callaruncounselling a svg {
   margin-right: 10px;
+}
+.ck-content #cpd-lozenge {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-image: url(/themes/custom/arun10/images/cpd-background-2.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-radius: 150px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.ck-content #cpd-lozenge .inner-wrapper {
+  padding: 60px 150px 30px 150px;
+}
+.ck-content #cpd-lozenge .text {
+  font-weight: 700;
+  font-size: x-large;
+  color: #ffffff;
+  text-shadow: 2px 2px 5px #000000;
+}
+.ck-content #cpd-lozenge a {
+  font-weight: 700;
+}
+@media screen and (max-width: 991px) {
+  .ck-content #cpd-lozenge .text {
+    font-size: large;
+  }
+  .ck-content #cpd-lozenge .inner-wrapper {
+    padding: 60px 30px 15px 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .ck-content #cpd-lozenge {
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+  }
 }
 @media screen and (min-width: 500px) and (max-width: 991px) {
   .ck-content .path-frontpage #top-content .region > div img {
