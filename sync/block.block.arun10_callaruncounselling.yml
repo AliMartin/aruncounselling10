@@ -1,0 +1,30 @@
+uuid: a1c06bc0-20e5-4157-baac-4e72a094b2d2
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b5b70fcd-ac2a-425e-bb62-0eefaff966f7'
+  module:
+    - block_content
+    - system
+  theme:
+    - arun10
+id: arun10_callaruncounselling
+theme: arun10
+region: content
+weight: -12
+provider: null
+plugin: 'block_content:b5b70fcd-ac2a-425e-bb62-0eefaff966f7'
+settings:
+  id: 'block_content:b5b70fcd-ac2a-425e-bb62-0eefaff966f7'
+  label: 'Call Arun Counselling'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

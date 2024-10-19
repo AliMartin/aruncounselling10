@@ -4,5 +4,5 @@ status: true
 dependencies: {  }
 id: front_page
 label: 'Front page'
-revision: 0
+revision: false
 description: '<em>Front page</em> blocks appear on the home page only.'

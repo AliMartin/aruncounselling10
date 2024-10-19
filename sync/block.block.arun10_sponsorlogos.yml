@@ -16,7 +16,7 @@ provider: null
 plugin: 'block_content:eff51d97-5489-4d32-ad4f-838c53fe354f'
 settings:
   id: 'block_content:eff51d97-5489-4d32-ad4f-838c53fe354f'
-  label: 'The Arun Counselling Centre is supported by'
+  label: 'Arun Counselling Centre is supported by'
   label_display: visible
   provider: block_content
   status: true

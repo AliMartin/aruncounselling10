@@ -4,5 +4,5 @@ status: true
 dependencies: {  }
 id: menu_information
 label: 'Menu information'
-revision: 0
+revision: false
 description: '<em>Menu information</em> blocks appear on the main mega menu and summarise that section of the website.'

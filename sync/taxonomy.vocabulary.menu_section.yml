@@ -6,3 +6,4 @@ name: 'Menu section'
 vid: menu_section
 description: 'Used to categorise nodes that appear on the main menu'
 weight: 0
+new_revision: false

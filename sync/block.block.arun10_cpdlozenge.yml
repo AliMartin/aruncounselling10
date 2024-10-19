@@ -1,0 +1,30 @@
+uuid: f79d238f-dd54-47b2-8608-a4184d40fe23
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:54bcb615-a9ae-4482-b55c-983e04ebdd03'
+  module:
+    - block_content
+    - system
+  theme:
+    - arun10
+id: arun10_cpdlozenge
+theme: arun10
+region: content
+weight: -11
+provider: null
+plugin: 'block_content:54bcb615-a9ae-4482-b55c-983e04ebdd03'
+settings:
+  id: 'block_content:54bcb615-a9ae-4482-b55c-983e04ebdd03'
+  label: 'CPD lozenge'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

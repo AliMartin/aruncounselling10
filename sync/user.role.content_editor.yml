@@ -18,6 +18,7 @@ dependencies:
     - node.type.page
     - node.type.staff
   module:
+    - block
     - block_content
     - contextual
     - draggableviews
@@ -49,6 +50,7 @@ permissions:
   - 'access media overview'
   - 'access toolbar'
   - 'access tour'
+  - 'administer blocks'
   - 'administer url aliases'
   - 'create announcement content'
   - 'create article content'

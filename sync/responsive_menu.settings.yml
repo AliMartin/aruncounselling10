@@ -1,6 +1,5 @@
 _core:
   default_config_hash: kUfdaDqrL0H8TAdz_cSMrTs0_vev13ZXDGUJjcvqx9E
-langcode: en-gb
 horizontal_menu: main
 horizontal_depth: 9
 off_canvas_menus: 'main,top-menu-mobile'

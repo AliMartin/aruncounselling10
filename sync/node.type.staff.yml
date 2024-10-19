@@ -11,7 +11,7 @@ third_party_settings:
 name: Staff
 type: staff
 description: 'Add a <em>staff</em> profile to the website'
-help: ''
+help: null
 new_revision: true
 preview_mode: 0
 display_submitted: false

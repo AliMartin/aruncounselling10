@@ -11,7 +11,7 @@ third_party_settings:
 name: Event
 type: event
 description: 'Add an <em>event</em> to the website with outbound links to Eventbrite to purchase tickets.'
-help: ''
+help: null
 new_revision: false
 preview_mode: 1
 display_submitted: false
