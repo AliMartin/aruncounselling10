@@ -7,6 +7,7 @@ dependencies:
     - node.type.page
   module:
     - field_layout
+    - layout_builder
     - layout_discovery
     - text
 third_party_settings:
@@ -14,6 +15,40 @@ third_party_settings:
     id: layout_onecol
     settings:
       label: ''
+  layout_builder:
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          12c6ad8c-08a3-46c1-942c-94b74ccd921d:
+            uuid: 12c6ad8c-08a3-46c1-942c-94b74ccd921d
+            region: content
+            configuration:
+              id: 'field_block:node:page:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          eb33708e-a6f6-4f25-8e18-9c69e6671ae1:
+            uuid: eb33708e-a6f6-4f25-8e18-9c69e6671ae1
+            region: content
+            configuration:
+              id: 'extra_field_block:node:page:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 1
+            additional: {  }
+        third_party_settings: {  }
 _core:
   default_config_hash: M_Y8L5tfmhx7DR143E05YyZSpvgil6VFvqcfBWykalg
 id: node.page.default

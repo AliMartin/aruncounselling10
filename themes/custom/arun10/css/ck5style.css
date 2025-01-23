@@ -14568,14 +14568,23 @@ a > .ck-content code {
 .ck-content #sponsor-logos .lottery img {
   width: 240px;
 }
+.ck-content #sponsor-logos .chalk-cliff-trust img {
+  height: 64px;
+  width: auto;
+}
 .ck-content #sponsor-logos .lions img {
   width: 120px;
 }
 .ck-content #sponsor-logos .postcode-society img {
-  width: 204px;
+  height: 64px;
+  width: auto;
 }
 .ck-content #sponsor-logos .sussex-community img {
-  width: 140px;
+  height: 64px;
+  width: auto;
+}
+.ck-content #sponsor-logos .foyle-foundation img {
+  width: 240px;
 }
 .ck-content #sponsor-logos .foyle-foundation img {
   width: 240px;

@@ -15,6 +15,7 @@ dependencies:
     - node.type.event
   module:
     - field_layout
+    - layout_builder
     - layout_discovery
     - manage_display
     - text
@@ -23,6 +24,58 @@ third_party_settings:
     id: layout_onecol
     settings:
       label: ''
+  layout_builder:
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          6ee2b6fc-b054-4080-a85d-983e536318ff:
+            uuid: 6ee2b6fc-b054-4080-a85d-983e536318ff
+            region: content
+            configuration:
+              id: 'field_block:node:event:title'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: title
+                label: hidden
+                settings:
+                  link_to_entity: true
+                  tag: h2
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          5fbcc20c-9d84-479f-89ee-78f506840e03:
+            uuid: 5fbcc20c-9d84-479f-89ee-78f506840e03
+            region: content
+            configuration:
+              id: 'extra_field_block:node:event:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 1
+            additional: {  }
+          2b1d5598-968e-49cb-ac99-150f05a3ca8e:
+            uuid: 2b1d5598-968e-49cb-ac99-150f05a3ca8e
+            region: content
+            configuration:
+              id: 'field_block:node:event:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_summary_or_trimmed
+                label: hidden
+                settings:
+                  trim_length: 600
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+        third_party_settings: {  }
 id: node.event.teaser
 targetEntityType: node
 bundle: event

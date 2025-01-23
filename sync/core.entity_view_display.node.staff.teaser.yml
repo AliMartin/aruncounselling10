@@ -11,6 +11,7 @@ dependencies:
     - node.type.staff
   module:
     - field_layout
+    - layout_builder
     - layout_discovery
     - text
 third_party_settings:
@@ -18,6 +19,57 @@ third_party_settings:
     id: layout_onecol
     settings:
       label: ''
+  layout_builder:
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          eb466e92-7ead-4548-908e-b861b561a223:
+            uuid: eb466e92-7ead-4548-908e-b861b561a223
+            region: content
+            configuration:
+              id: 'extra_field_block:node:staff:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 0
+            additional: {  }
+          acfa6723-7c10-436d-9ce3-4719543db1b8:
+            uuid: acfa6723-7c10-436d-9ce3-4719543db1b8
+            region: content
+            configuration:
+              id: 'field_block:node:staff:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_summary_or_trimmed
+                label: hidden
+                settings:
+                  trim_length: 600
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          d17fbdb6-7cfb-402b-9147-55258d3e9b71:
+            uuid: d17fbdb6-7cfb-402b-9147-55258d3e9b71
+            region: content
+            configuration:
+              id: 'field_block:node:staff:title'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: string
+                label: above
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+        third_party_settings: {  }
 id: node.staff.teaser
 targetEntityType: node
 bundle: staff

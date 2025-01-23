@@ -30,7 +30,6 @@ dependencies:
     - node
     - path
     - system
-    - toolbar
     - tour
 _core:
   default_config_hash: NtMgnXp0miNtJhag07NSjwdCm4zpJwhlDFs1HgyL4wI
@@ -48,7 +47,6 @@ permissions:
   - 'access files overview'
   - 'access help pages'
   - 'access media overview'
-  - 'access toolbar'
   - 'access tour'
   - 'administer blocks'
   - 'administer url aliases'

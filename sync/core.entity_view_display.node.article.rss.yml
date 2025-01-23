@@ -13,6 +13,7 @@ dependencies:
     - node.type.article
   module:
     - field_layout
+    - layout_builder
     - layout_discovery
     - manage_display
 third_party_settings:
@@ -20,6 +21,42 @@ third_party_settings:
     id: layout_onecol
     settings:
       label: ''
+  layout_builder:
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          f32f4c6a-758e-4433-93e0-5c4a19bfeccb:
+            uuid: f32f4c6a-758e-4433-93e0-5c4a19bfeccb
+            region: content
+            configuration:
+              id: 'field_block:node:article:title'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: title
+                label: hidden
+                settings:
+                  link_to_entity: true
+                  tag: h2
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          8d4ab937-92c6-40ed-a255-3ad8b491c015:
+            uuid: 8d4ab937-92c6-40ed-a255-3ad8b491c015
+            region: content
+            configuration:
+              id: 'extra_field_block:node:article:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 1
+            additional: {  }
+        third_party_settings: {  }
 _core:
   default_config_hash: 2rIr6K5Q0UQ9khg0zE_CK-PtJH76UL-BDDZcZnZzwCc
 id: node.article.rss
@@ -28,6 +65,8 @@ bundle: article
 mode: rss
 content:
   links:
+    settings: {  }
+    third_party_settings: {  }
     weight: 100
     region: content
   title:

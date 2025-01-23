@@ -10,6 +10,7 @@ dependencies:
     - image.style.round
   module:
     - field_layout
+    - layout_builder
     - layout_discovery
     - media
     - text
@@ -18,6 +19,49 @@ third_party_settings:
     id: layout_onecol
     settings:
       label: ''
+  layout_builder:
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          56f1c28a-6a16-4510-813e-ecf0d4cf10aa:
+            uuid: 56f1c28a-6a16-4510-813e-ecf0d4cf10aa
+            region: content
+            configuration:
+              id: 'field_block:block_content:front_page:field_image'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: media_thumbnail
+                label: hidden
+                settings:
+                  image_link: ''
+                  image_style: round
+                  image_loading:
+                    attribute: lazy
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          d74ea0a0-aec6-42a4-8d12-6a7b5095a9c8:
+            uuid: d74ea0a0-aec6-42a4-8d12-6a7b5095a9c8
+            region: content
+            configuration:
+              id: 'field_block:block_content:front_page:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+        third_party_settings: {  }
 id: block_content.front_page.default
 targetEntityType: block_content
 bundle: front_page

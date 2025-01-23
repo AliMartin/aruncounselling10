@@ -17,6 +17,7 @@ dependencies:
     - daterange_compact
     - field_layout
     - image
+    - layout_builder
     - layout_discovery
     - link
     - manage_display
@@ -26,6 +27,169 @@ third_party_settings:
     id: layout_onecol
     settings:
       label: ''
+  layout_builder:
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          d29b0a4f-653e-49f6-8a34-bee774b4e97a:
+            uuid: d29b0a4f-653e-49f6-8a34-bee774b4e97a
+            region: content
+            configuration:
+              id: 'field_block:node:event:field_cropped_image'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: image
+                label: hidden
+                settings:
+                  image_link: ''
+                  image_style: default
+                  image_loading:
+                    attribute: lazy
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          a93b56f8-3f76-4e78-bfaa-95796c53e9df:
+            uuid: a93b56f8-3f76-4e78-bfaa-95796c53e9df
+            region: content
+            configuration:
+              id: 'field_block:node:event:title'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: title
+                label: hidden
+                settings:
+                  link_to_entity: false
+                  tag: h1
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          ea39cf8f-7087-41b1-91e8-a548bd7389cd:
+            uuid: ea39cf8f-7087-41b1-91e8-a548bd7389cd
+            region: content
+            configuration:
+              id: 'field_block:node:event:field_date'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: daterange_compact
+                label: hidden
+                settings:
+                  daterange_compact_format: medium_datetime
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+          6c71e71b-da96-4109-a620-68adbdbad81e:
+            uuid: 6c71e71b-da96-4109-a620-68adbdbad81e
+            region: content
+            configuration:
+              id: 'field_block:node:event:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 3
+            additional: {  }
+          822c07b9-3d0f-464c-ac06-78f95ca5d323:
+            uuid: 822c07b9-3d0f-464c-ac06-78f95ca5d323
+            region: content
+            configuration:
+              id: 'field_block:node:event:field_price_for_members'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: number_decimal
+                label: inline
+                settings:
+                  thousand_separator: ''
+                  decimal_separator: .
+                  scale: 2
+                  prefix_suffix: true
+                third_party_settings: {  }
+            weight: 4
+            additional: {  }
+          980acaf7-4ef4-405a-b8fb-37e31d892310:
+            uuid: 980acaf7-4ef4-405a-b8fb-37e31d892310
+            region: content
+            configuration:
+              id: 'field_block:node:event:field_price_for_friends_of_arun'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: number_decimal
+                label: inline
+                settings:
+                  thousand_separator: ''
+                  decimal_separator: .
+                  scale: 2
+                  prefix_suffix: true
+                third_party_settings: {  }
+            weight: 5
+            additional: {  }
+          6da86f56-6042-438b-b40f-fd070fe6dc05:
+            uuid: 6da86f56-6042-438b-b40f-fd070fe6dc05
+            region: content
+            configuration:
+              id: 'field_block:node:event:field_price_for_general_admissio'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: number_decimal
+                label: inline
+                settings:
+                  thousand_separator: ''
+                  decimal_separator: .
+                  scale: 2
+                  prefix_suffix: true
+                third_party_settings: {  }
+            weight: 6
+            additional: {  }
+          2fdb9be5-77d1-47cf-b558-59a2e4b18229:
+            uuid: 2fdb9be5-77d1-47cf-b558-59a2e4b18229
+            region: content
+            configuration:
+              id: 'field_block:node:event:field_link'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: link
+                label: hidden
+                settings:
+                  trim_length: 80
+                  url_only: false
+                  url_plain: false
+                  rel: ''
+                  target: ''
+                third_party_settings: {  }
+            weight: 7
+            additional: {  }
+          d9c1c3f6-6c0b-412c-889c-5d66e7b8b15f:
+            uuid: d9c1c3f6-6c0b-412c-889c-5d66e7b8b15f
+            region: content
+            configuration:
+              id: 'extra_field_block:node:event:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 8
+            additional: {  }
+        third_party_settings: {  }
 id: node.event.default
 targetEntityType: node
 bundle: event

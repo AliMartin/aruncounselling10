@@ -13,6 +13,7 @@ dependencies:
   module:
     - field_layout
     - image
+    - layout_builder
     - layout_discovery
     - text
 third_party_settings:
@@ -20,6 +21,75 @@ third_party_settings:
     id: layout_onecol
     settings:
       label: ''
+  layout_builder:
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          71c2f7c9-775b-422a-b3f9-1a4e0c054c78:
+            uuid: 71c2f7c9-775b-422a-b3f9-1a4e0c054c78
+            region: content
+            configuration:
+              id: 'field_block:node:staff:field_staff_image'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: image
+                label: hidden
+                settings:
+                  image_link: ''
+                  image_style: staff
+                  image_loading:
+                    attribute: lazy
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          2321c913-0ddd-4f80-a561-c94f75ddf097:
+            uuid: 2321c913-0ddd-4f80-a561-c94f75ddf097
+            region: content
+            configuration:
+              id: 'field_block:node:staff:field_position'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: string
+                label: hidden
+                settings:
+                  link_to_entity: false
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          e9796fd1-286a-48fc-a9a3-d83129a7e4d7:
+            uuid: e9796fd1-286a-48fc-a9a3-d83129a7e4d7
+            region: content
+            configuration:
+              id: 'field_block:node:staff:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+          40b34a4d-5bf7-4dcd-9de0-c99b070b9c37:
+            uuid: 40b34a4d-5bf7-4dcd-9de0-c99b070b9c37
+            region: content
+            configuration:
+              id: 'extra_field_block:node:staff:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 3
+            additional: {  }
+        third_party_settings: {  }
 id: node.staff.full
 targetEntityType: node
 bundle: staff

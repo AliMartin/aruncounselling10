@@ -14,6 +14,7 @@ dependencies:
     - faqfield
     - field_layout
     - file
+    - layout_builder
     - layout_discovery
     - text
 third_party_settings:
@@ -21,6 +22,111 @@ third_party_settings:
     id: layout_onecol
     settings:
       label: ''
+  layout_builder:
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          19442e25-0e37-426d-873a-3bb8d700ea81:
+            uuid: 19442e25-0e37-426d-873a-3bb8d700ea81
+            region: content
+            configuration:
+              id: 'field_block:node:article:field_image'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_entity_view
+                label: hidden
+                settings:
+                  view_mode: full
+                  link: false
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          50afbf50-110f-437c-a70c-7c5eac3a6ceb:
+            uuid: 50afbf50-110f-437c-a70c-7c5eac3a6ceb
+            region: content
+            configuration:
+              id: 'field_block:node:article:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          5ce64489-ecc0-4712-9ef1-60494489f467:
+            uuid: 5ce64489-ecc0-4712-9ef1-60494489f467
+            region: content
+            configuration:
+              id: 'field_block:node:article:field_faq'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: faqfield_accordion
+                label: hidden
+                settings:
+                  active: 0
+                  heightStyle: content
+                  collapsible: false
+                  event: click
+                  animate:
+                    easing: linear
+                    duration: 200
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+          e8305def-a006-4904-9f38-d59f0183bf1f:
+            uuid: e8305def-a006-4904-9f38-d59f0183bf1f
+            region: content
+            configuration:
+              id: 'field_block:node:article:field_attachments'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: file_default
+                label: above
+                settings:
+                  use_description_as_link_text: true
+                third_party_settings: {  }
+            weight: 3
+            additional: {  }
+          f07a3f47-490b-4e87-b3c3-979e58e173dc:
+            uuid: f07a3f47-490b-4e87-b3c3-979e58e173dc
+            region: content
+            configuration:
+              id: 'field_block:node:article:field_tags'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_label
+                label: hidden
+                settings:
+                  link: true
+                third_party_settings: {  }
+            weight: 4
+            additional: {  }
+          547ab67a-f63b-4058-bc15-314abef7407f:
+            uuid: 547ab67a-f63b-4058-bc15-314abef7407f
+            region: content
+            configuration:
+              id: 'extra_field_block:node:article:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 5
+            additional: {  }
+        third_party_settings: {  }
 _core:
   default_config_hash: 7fb0j9HnIXfP9ndewzgPPzzeX_SV532wuYpkscrCMCk
 id: node.article.default

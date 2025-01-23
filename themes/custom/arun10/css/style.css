@@ -16137,14 +16137,23 @@ footer a:hover, footer a:active {
 #sponsor-logos .lottery img {
   width: 240px;
 }
+#sponsor-logos .chalk-cliff-trust img {
+  height: 64px;
+  width: auto;
+}
 #sponsor-logos .lions img {
   width: 120px;
 }
 #sponsor-logos .postcode-society img {
-  width: 204px;
+  height: 64px;
+  width: auto;
 }
 #sponsor-logos .sussex-community img {
-  width: 140px;
+  height: 64px;
+  width: auto;
+}
+#sponsor-logos .foyle-foundation img {
+  width: 240px;
 }
 #sponsor-logos .foyle-foundation img {
   width: 240px;

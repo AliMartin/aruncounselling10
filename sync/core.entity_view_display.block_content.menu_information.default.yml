@@ -8,6 +8,7 @@ dependencies:
     - field.field.block_content.menu_information.field_image
   module:
     - field_layout
+    - layout_builder
     - layout_discovery
     - text
 third_party_settings:
@@ -15,6 +16,47 @@ third_party_settings:
     id: layout_onecol
     settings:
       label: ''
+  layout_builder:
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          46df7878-e630-42f9-9aa4-f90033481d2b:
+            uuid: 46df7878-e630-42f9-9aa4-f90033481d2b
+            region: content
+            configuration:
+              id: 'field_block:block_content:menu_information:field_image'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_entity_view
+                label: hidden
+                settings:
+                  view_mode: mega_menu
+                  link: false
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          00c414e6-749e-4222-9843-235033390e1b:
+            uuid: 00c414e6-749e-4222-9843-235033390e1b
+            region: content
+            configuration:
+              id: 'field_block:block_content:menu_information:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+        third_party_settings: {  }
 id: block_content.menu_information.default
 targetEntityType: block_content
 bundle: menu_information

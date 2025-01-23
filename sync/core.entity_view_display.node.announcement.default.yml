@@ -8,6 +8,7 @@ dependencies:
     - node.type.announcement
   module:
     - field_layout
+    - layout_builder
     - layout_discovery
     - text
 third_party_settings:
@@ -15,6 +16,57 @@ third_party_settings:
     id: layout_onecol
     settings:
       label: ''
+  layout_builder:
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          bd413415-0242-448d-b5a4-a6e1fc24b5c1:
+            uuid: bd413415-0242-448d-b5a4-a6e1fc24b5c1
+            region: content
+            configuration:
+              id: 'field_block:node:announcement:field_image'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: entity_reference_entity_view
+                label: hidden
+                settings:
+                  view_mode: full
+                  link: false
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          0de88482-f503-4d5d-b6b9-dd8239ac8717:
+            uuid: 0de88482-f503-4d5d-b6b9-dd8239ac8717
+            region: content
+            configuration:
+              id: 'field_block:node:announcement:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          acd3b28e-7d75-40cf-9aca-ab0f5035bc5a:
+            uuid: acd3b28e-7d75-40cf-9aca-ab0f5035bc5a
+            region: content
+            configuration:
+              id: 'extra_field_block:node:announcement:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 2
+            additional: {  }
+        third_party_settings: {  }
 id: node.announcement.default
 targetEntityType: node
 bundle: announcement

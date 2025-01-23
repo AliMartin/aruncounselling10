@@ -8,6 +8,7 @@ dependencies:
     - node.type.page
   module:
     - field_layout
+    - layout_builder
     - layout_discovery
     - manage_display
     - text
@@ -16,6 +17,58 @@ third_party_settings:
     id: layout_onecol
     settings:
       label: ''
+  layout_builder:
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          ee584d3e-1c3c-4042-8326-3cbdd98391f5:
+            uuid: ee584d3e-1c3c-4042-8326-3cbdd98391f5
+            region: content
+            configuration:
+              id: 'field_block:node:page:title'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: title
+                label: hidden
+                settings:
+                  link_to_entity: true
+                  tag: h2
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          c84413f0-cf37-4c73-ae7c-d9311ec2103e:
+            uuid: c84413f0-cf37-4c73-ae7c-d9311ec2103e
+            region: content
+            configuration:
+              id: 'field_block:node:page:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_summary_or_trimmed
+                label: hidden
+                settings:
+                  trim_length: 600
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          ecbc09dd-a7ad-4deb-949f-bbfacdfb8a8b:
+            uuid: ecbc09dd-a7ad-4deb-949f-bbfacdfb8a8b
+            region: content
+            configuration:
+              id: 'extra_field_block:node:page:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 2
+            additional: {  }
+        third_party_settings: {  }
 _core:
   default_config_hash: 8BgdRtLbtQ0F__o0FHSH0Mx5fvXOra9tfT1GmNKbRYw
 id: node.page.teaser
@@ -32,6 +85,8 @@ content:
     weight: 100
     region: content
   links:
+    settings: {  }
+    third_party_settings: {  }
     weight: 101
     region: content
   title:

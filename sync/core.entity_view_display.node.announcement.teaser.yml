@@ -9,6 +9,7 @@ dependencies:
     - node.type.announcement
   module:
     - field_layout
+    - layout_builder
     - layout_discovery
     - manage_display
     - text
@@ -17,6 +18,58 @@ third_party_settings:
     id: layout_onecol
     settings:
       label: ''
+  layout_builder:
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          9c4cc954-aba3-4365-8595-4856ce2ee8ca:
+            uuid: 9c4cc954-aba3-4365-8595-4856ce2ee8ca
+            region: content
+            configuration:
+              id: 'field_block:node:announcement:title'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: title
+                label: hidden
+                settings:
+                  link_to_entity: true
+                  tag: h2
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          413b2670-8991-465b-96c2-77629bec6b7d:
+            uuid: 413b2670-8991-465b-96c2-77629bec6b7d
+            region: content
+            configuration:
+              id: 'extra_field_block:node:announcement:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 1
+            additional: {  }
+          770bf0b4-7f06-468f-82d8-c70c11b3760b:
+            uuid: 770bf0b4-7f06-468f-82d8-c70c11b3760b
+            region: content
+            configuration:
+              id: 'field_block:node:announcement:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_summary_or_trimmed
+                label: hidden
+                settings:
+                  trim_length: 600
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+        third_party_settings: {  }
 id: node.announcement.teaser
 targetEntityType: node
 bundle: announcement

@@ -15,6 +15,7 @@ dependencies:
     - node.type.event
   module:
     - field_layout
+    - layout_builder
     - layout_discovery
     - manage_display
     - text
@@ -23,6 +24,76 @@ third_party_settings:
     id: layout_onecol
     settings:
       label: ''
+  layout_builder:
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          3fe246b3-6de1-4e5f-8d35-8350b376c91a:
+            uuid: 3fe246b3-6de1-4e5f-8d35-8350b376c91a
+            region: content
+            configuration:
+              id: 'field_block:node:event:title'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: title
+                label: hidden
+                settings:
+                  link_to_entity: false
+                  tag: h1
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          b1808c23-19fe-4fc2-9a43-7d8e48327265:
+            uuid: b1808c23-19fe-4fc2-9a43-7d8e48327265
+            region: content
+            configuration:
+              id: 'field_block:node:event:body'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 1
+            additional: {  }
+          2fa7a93d-f565-4d79-a3bf-5ab7906aa21b:
+            uuid: 2fa7a93d-f565-4d79-a3bf-5ab7906aa21b
+            region: content
+            configuration:
+              id: 'field_block:node:event:field_price_for_members'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: number_decimal
+                label: above
+                settings:
+                  thousand_separator: ''
+                  decimal_separator: .
+                  scale: 2
+                  prefix_suffix: true
+                third_party_settings: {  }
+            weight: 2
+            additional: {  }
+          067652c1-4851-4ec6-94a4-e64a822ad197:
+            uuid: 067652c1-4851-4ec6-94a4-e64a822ad197
+            region: content
+            configuration:
+              id: 'extra_field_block:node:event:links'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+            weight: 3
+            additional: {  }
+        third_party_settings: {  }
 id: node.event.full
 targetEntityType: node
 bundle: event
