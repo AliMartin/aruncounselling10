@@ -16144,6 +16144,10 @@ footer a:hover, footer a:active {
 #sponsor-logos .lions img {
   width: 120px;
 }
+#sponsor-logos .bognor-regis-tc img {
+  height: 64px;
+  width: auto;
+}
 #sponsor-logos .postcode-society img {
   height: 64px;
   width: auto;

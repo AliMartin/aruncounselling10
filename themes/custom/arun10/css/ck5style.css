@@ -14575,6 +14575,10 @@ a > .ck-content code {
 .ck-content #sponsor-logos .lions img {
   width: 120px;
 }
+.ck-content #sponsor-logos .bognor-regis-tc img {
+  height: 64px;
+  width: auto;
+}
 .ck-content #sponsor-logos .postcode-society img {
   height: 64px;
   width: auto;
