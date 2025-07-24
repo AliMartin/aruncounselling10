@@ -16130,6 +16130,9 @@ footer a:hover, footer a:active {
   gap: 30px;
   align-items: center;
   justify-content: center;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
 }
 #sponsor-logos img {
   height: auto;
@@ -16159,8 +16162,9 @@ footer a:hover, footer a:active {
 #sponsor-logos .foyle-foundation img {
   width: 240px;
 }
-#sponsor-logos .foyle-foundation img {
-  width: 240px;
+#sponsor-logos .littlehampton-town-council img {
+  height: 95px;
+  width: auto;
 }
 
 @media screen and (max-width: 499px) {
