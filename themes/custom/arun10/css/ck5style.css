@@ -14561,7 +14561,7 @@ a > .ck-content code {
   gap: 30px;
   align-items: center;
   justify-content: center;
-  max-width: 850px;
+  max-width: 870px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -14572,6 +14572,10 @@ a > .ck-content code {
   width: 240px;
 }
 .ck-content #sponsor-logos .chalk-cliff-trust img {
+  height: 64px;
+  width: auto;
+}
+.ck-content #sponsor-logos .chamber-member img {
   height: 64px;
   width: auto;
 }

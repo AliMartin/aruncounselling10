@@ -16130,7 +16130,7 @@ footer a:hover, footer a:active {
   gap: 30px;
   align-items: center;
   justify-content: center;
-  max-width: 850px;
+  max-width: 870px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -16141,6 +16141,10 @@ footer a:hover, footer a:active {
   width: 240px;
 }
 #sponsor-logos .chalk-cliff-trust img {
+  height: 64px;
+  width: auto;
+}
+#sponsor-logos .chamber-member img {
   height: 64px;
   width: auto;
 }
