@@ -16127,10 +16127,10 @@ footer a:hover, footer a:active {
 #sponsor-logos {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 25px;
   align-items: center;
   justify-content: center;
-  max-width: 870px;
+  max-width: 950px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -16160,6 +16160,10 @@ footer a:hover, footer a:active {
   width: auto;
 }
 #sponsor-logos .sussex-community img {
+  height: 64px;
+  width: auto;
+}
+#sponsor-logos .disability-confident img {
   height: 64px;
   width: auto;
 }

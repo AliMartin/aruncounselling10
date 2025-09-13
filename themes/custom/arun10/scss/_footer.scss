@@ -82,10 +82,10 @@ footer {
 #sponsor-logos {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 25px;
   align-items: center;
   justify-content: center;
-  max-width: 870px;
+  max-width: 950px;
   margin-left: auto;
   margin-right: auto;
 
@@ -100,6 +100,7 @@ footer {
   .bognor-regis-tc img {height: 64px; width: auto;}
   .postcode-society img {height: 64px; width: auto;}
   .sussex-community img {height: 64px; width: auto;}
+  .disability-confident img {height: 64px; width: auto;}
   .foyle-foundation img {width: 240px;}
   .littlehampton-town-council img {height: 95px; width: auto;}
 }  
