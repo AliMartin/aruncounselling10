@@ -14532,20 +14532,21 @@ a > .ck-content code {
 .ck-content #footer-text svg {
   margin-right: 5px;
 }
-.ck-content #hyperluminal {
+.ck-content #ultraluminal {
   display: flex;
   justify-content: center;
   flex-direction: column;
   gap: 5px;
   text-align: center;
 }
-.ck-content #hyperluminal span.text {
+.ck-content #ultraluminal span.text {
   text-transform: uppercase;
+  font-weight: 600;
   font-size: 9px;
   letter-spacing: 2px;
 }
-.ck-content #hyperluminal img {
-  width: 100px;
+.ck-content #ultraluminal img {
+  width: 108px;
   height: auto;
 }
 .ck-content #block-arun10-sponsorlogos {
@@ -14579,8 +14580,11 @@ a > .ck-content code {
   height: 64px;
   width: auto;
 }
+.ck-content #sponsor-logos .arun-tc img {
+  height: 112px;
+}
 .ck-content #sponsor-logos .lions img {
-  width: 120px;
+  height: 112px;
 }
 .ck-content #sponsor-logos .bognor-regis-tc img {
   height: 64px;

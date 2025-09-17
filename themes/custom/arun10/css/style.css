@@ -16099,20 +16099,21 @@ footer a:hover, footer a:active {
   margin-right: 5px;
 }
 
-#hyperluminal {
+#ultraluminal {
   display: flex;
   justify-content: center;
   flex-direction: column;
   gap: 5px;
   text-align: center;
 }
-#hyperluminal span.text {
+#ultraluminal span.text {
   text-transform: uppercase;
+  font-weight: 600;
   font-size: 9px;
   letter-spacing: 2px;
 }
-#hyperluminal img {
-  width: 100px;
+#ultraluminal img {
+  width: 108px;
   height: auto;
 }
 
@@ -16148,8 +16149,11 @@ footer a:hover, footer a:active {
   height: 64px;
   width: auto;
 }
+#sponsor-logos .arun-tc img {
+  height: 112px;
+}
 #sponsor-logos .lions img {
-  width: 120px;
+  height: 112px;
 }
 #sponsor-logos .bognor-regis-tc img {
   height: 64px;
